@@ -215,12 +215,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08-Algorithm/并查集-UnionFind.md",
+                "file": "08-Algorithm/Problem/Hard/冗余连接II-Redundant-Connection.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "并查集-UnionFind"
+              "title": "冗余连接II-Redundant-Connection"
             }
           }
         ],
@@ -389,8 +389,13 @@
   },
   "active": "281950d5799b9149",
   "lastOpenFiles": [
-    "08-Algorithm/并查集.md",
     "08-Algorithm/并查集-UnionFind.md",
+    "08-Algorithm/Problem/Hard/冗余连接II-Redundant-Connection.md",
+    "08-Algorithm/Problem/Hard",
+    "08-Algorithm/Problem/Medium/Untitled.md",
+    "08-Algorithm/Problem/Medium",
+    "08-Algorithm/Problem",
+    "08-Algorithm/并查集.md",
     "Software-List/MacOS-15.md",
     "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md",
     "Misc/All-In-One/网络拓扑.md",
@@ -429,13 +434,8 @@
     "01-IDE-Guide/JetBrains/IDEA/书签.md",
     "attachments/Pasted image 20230422124747.png",
     "attachments/Pasted image 20230422131244.png",
-    "04-Network/DHCP.md",
     "Untitled.canvas",
     "Excalidraw",
-    "attachments/stream-flatMap-1.drawio",
-    "attachments/Pasted.md",
-    "attachments/stream-map-1.drawio",
-    "Misc",
     "未命名.canvas",
     "IDE-Guide/JetBrains/IDEA/未命名.canvas"
   ]
