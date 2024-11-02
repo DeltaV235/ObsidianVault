@@ -222,6 +222,18 @@
               "icon": "lucide-file",
               "title": "冗余连接II-Redundant-Connection"
             }
+          },
+          {
+            "id": "cbde798f68afc4fd",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Redundant-Connection-Case-2-2.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Redundant-Connection-Case-2-2.excalidraw"
+            }
           }
         ],
         "currentTab": 15
@@ -352,10 +364,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Java/Core/Stream API.md"
+                "file": "08-Algorithm/Problem/Hard/冗余连接II-Redundant-Connection.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Stream API"
+              "title": "Outline of 冗余连接II-Redundant-Connection"
             }
           },
           {
@@ -369,7 +381,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -389,8 +401,12 @@
   },
   "active": "281950d5799b9149",
   "lastOpenFiles": [
-    "08-Algorithm/并查集-UnionFind.md",
+    "Excalidraw/Redundant-Connection-Case-2-1.excalidraw.md",
+    "Excalidraw/Redundant-Connection-Case-2-2.excalidraw.md",
     "08-Algorithm/Problem/Hard/冗余连接II-Redundant-Connection.md",
+    "Excalidraw/Redundant-Connection-Case-2.excalidraw.md",
+    "08-Algorithm/并查集-UnionFind.md",
+    "Excalidraw/Redundant-Connection-Case-1.excalidraw.md",
     "08-Algorithm/Problem/Hard",
     "08-Algorithm/Problem/Medium/Untitled.md",
     "08-Algorithm/Problem/Medium",
@@ -428,10 +444,6 @@
     "attachments/Pasted image 20230304204203.png",
     "attachments/Pasted image 20240616223208.png",
     "06-Git/LF will be replaced by CRLF the next time Git touches it.md",
-    "01-IDE-Guide/JetBrains/IDEA/代码跳转.md",
-    "Excalidraw/Drawing 2024-06-16 11.06.19.excalidraw.md",
-    "01-IDE-Guide/JetBrains/IDEA/时序图.md",
-    "01-IDE-Guide/JetBrains/IDEA/书签.md",
     "attachments/Pasted image 20230422124747.png",
     "attachments/Pasted image 20230422131244.png",
     "Untitled.canvas",

@@ -3,6 +3,7 @@ title: 并查集
 created: 2024-10-27
 tags: 
     - Algorithm
+    - UnionFind
 ---
 
 # 并查集

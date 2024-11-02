@@ -57,47 +57,117 @@ v   v
 
 ### UnionFind
 
+在树中加入一条边，一定会导致环路的出现，具体有以下两种情况。
+
+根据下方官方题解，有以下几个设定：
+
+1. 一条边只会被记录为冲突边或者环路边，如果图中的边同时是冲突边和环路边，那么该边将被记录为冲突边。
+2. 如果被记录为冲突边，那么这个边不会在并查集中被 union。
+
+**Case 1:**
+
+![[Redundant-Connection-Case-1.excalidraw]]
+
+如果没有冲突边（所有节点的入度约为 1），那么一定存在被记录的环路边，最后一个被记录的环路边即为附加边。
+
+**Case 2:**
+
+![[Redundant-Connection-Case-2.excalidraw]]
+
+如上图，存在冲突边也存在坏路边，那么附加边应为同时是冲突边和环路边的边（4-1）。
+
+**Case 2.1:**
+
+![[Redundant-Connection-Case-2-1.excalidraw]]
+
+图中边的数字对应其被遍历的顺序。
+
+4 号边被记录为冲突边。
+
+如果在遍历所有边之后，只记录了冲突边，没有环路边被记录，那么意味着这条被记录的冲突边同时也是环路边，因为图中必定出现环路边，此时返回这条边。
+
+**Case 2.2:**
+
+![[Redundant-Connection-Case-2-2.excalidraw]]
+
+3 被记录为环路边，4 被记录为冲突边。
+
+如果在遍历所有边之后，同时记录了冲突边和环路边，那么被记录冲突边指向的节点的另一条边即为附加边。环路边和冲突边被同时记录，意味着被记录的冲突边不在环路上，而是指向环路的节点。
+
+因为冲突边不会被 union，只有被记录的冲突边不在环路上的时候，才能找到环路边，一旦冲突边位于环路，那么环路上的所有边都不会被记录为环路边，因为缺少了被标记为冲突边的那条边的 union 操作。此时的状况对应 Case 2.1。
+
 ```java
 class Solution {
     public int[] findRedundantDirectedConnection(int[][] edges) {
         int n = edges.length;
+        UnionFind uf = new UnionFind(n + 1);
+        // 记录每个节点的父节点，不作为并查集使用
         int[] parent = new int[n + 1];
-        // parent[]数组用于记录每个节点的父节点
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; ++i) {
             parent[i] = i;
         }
-        int[] indegree = new int[n + 1];
         int conflict = -1;
         int cycle = -1;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; ++i) {
             int[] edge = edges[i];
-            int u = edge[0], v = edge[1];
-            if (parent[v] != v) {
+            int node1 = edge[0], node2 = edge[1];
+            // parent[node2] != node2 说明 node2 有两个父节点，即存在冲突
+            // 一条边只会被记录为冲突边或者环路边，如果图中的边同时是冲突边和环路边，那么该边将被记录为冲突边
+            if (parent[node2] != node2) {
                 conflict = i;
             } else {
-                parent[v] = u;
-                if (find(parent, u) == find(parent, v)) {
+                // 记录 node2 的父节点
+                parent[node2] = node1;
+                // 如果 node1 和 node2 已经连通，说明存在环路
+                if (uf.find(node1) == uf.find(node2)) {
                     cycle = i;
+                } else {
+                    // 将 node1 和 node2 连通
+                    uf.union(node1, node2);
                 }
             }
         }
         if (conflict < 0) {
-            return edges[cycle];
+            // 如果不存在冲突边，返回环路边
+            int[] redundant = {edges[cycle][0], edges[cycle][1]};
+            return redundant;
         } else {
+            // 如果存在冲突边，返回冲突边或者冲突边的父节点
             int[] conflictEdge = edges[conflict];
             if (cycle >= 0) {
-                return new int[]{parent[conflictEdge[1]], conflictEdge[1]};
+                // 如果同时存在被记录的环路边，返回冲突节点的另一个边，即指向冲突节点的最先被记录的边
+                int[] redundant = {parent[conflictEdge[1]], conflictEdge[1]};
+                return redundant;
             } else {
-                return conflictEdge;
+                // 如果不存在环路边，返回冲突边
+                int[] redundant = {conflictEdge[0], conflictEdge[1]};
+                return redundant;
             }
         }
     }
+}
 
-    public int find(int[] parent, int index) {
-        if (parent[index] != index) {
-            parent[index] = find(parent, parent[index]);
+
+
+class UnionFind {
+    int[] ancestor;
+
+    public UnionFind(int n) {
+        ancestor = new int[n];
+        for (int i = 0; i < n; ++i) {
+            ancestor[i] = i;
         }
-        return parent[index];
+    }
+
+    public void union(int index1, int index2) {
+        ancestor[find(index1)] = find(index2);
+    }
+
+    public int find(int index) {
+        if (ancestor[index] != index) {
+            ancestor[index] = find(ancestor[index]);
+        }
+        return ancestor[index];
     }
 }
 ```
