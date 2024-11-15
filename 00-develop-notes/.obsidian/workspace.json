@@ -40,17 +40,17 @@
             }
           },
           {
-            "id": "84a0007ddf1a64d6",
+            "id": "113fd6c7cc33ebde",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07-Frontend/02-CSS/字体高度.md",
-                "mode": "source",
+                "file": "Misc/All-In-One/配置.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "字体高度"
+              "title": "配置"
             }
           }
         ],
@@ -182,10 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07-Frontend/02-CSS/字体高度.md"
+                "file": "Misc/All-In-One/配置.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 字体高度"
+              "title": "Outline of 配置"
             }
           },
           {
@@ -217,15 +217,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "84a0007ddf1a64d6",
+  "active": "113fd6c7cc33ebde",
   "lastOpenFiles": [
-    "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md",
+    "Misc/All-In-One/网络拓扑.md",
+    "Misc/All-In-One/配置.md",
+    "02-Java/Core/Stream API.md",
     "07-Frontend/02-CSS/字体高度.md",
+    "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md",
     "07-Frontend/03-ECMAScript/ES 中的 this 变量.md",
     "07-Frontend/02-CSS",
     "07-Frontend/03-ECMAScript/Array.md",
     "07-Frontend/03-ECMAScript/闭包.md",
-    "Misc/All-In-One/网络拓扑.md",
     "07-Frontend/03-ECMAScript",
     "08-Algorithm/Problem/Hard/冗余连接II-Redundant-Connection.md",
     "Excalidraw/Redundant-Connection-Case-2-1.excalidraw.md",
@@ -248,7 +250,6 @@
     "Obsidian-Related/Obsidian Tutorial.md",
     "Obsidian-Related/Link-Demo2.md",
     "Obsidian-Related/Link-Demo1.md",
-    "02-Java/Core/Stream API.md",
     "07-Frontend",
     "attachments/Pasted image 20240618201102.png",
     "Todo-List.md",
@@ -260,7 +261,6 @@
     "Excalidraw/Library/未确认 612625.crdownload",
     "Excalidraw/Library",
     "attachments/Pasted image 20240616235513.png",
-    "Drawing 2024-06-16 11.06.19.excalidraw.md",
     "attachments/Pasted image 20230304204203.png",
     "attachments/Pasted image 20240616223208.png",
     "attachments/Pasted image 20230422124747.png",
