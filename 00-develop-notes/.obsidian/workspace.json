@@ -45,12 +45,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/All-In-One/配置.md",
-                "mode": "preview",
+                "file": "Misc/MacOS 制作 Win11 安装引导盘.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "配置"
+              "title": "MacOS 制作 Win11 安装引导盘"
             }
           }
         ],
@@ -182,10 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misc/All-In-One/配置.md"
+                "file": "Misc/MacOS 制作 Win11 安装引导盘.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 配置"
+              "title": "Outline of MacOS 制作 Win11 安装引导盘"
             }
           },
           {
@@ -219,8 +219,9 @@
   },
   "active": "113fd6c7cc33ebde",
   "lastOpenFiles": [
-    "Misc/All-In-One/网络拓扑.md",
     "Misc/All-In-One/配置.md",
+    "Misc/MacOS 制作 Win11 安装引导盘.md",
+    "Misc/All-In-One/网络拓扑.md",
     "02-Java/Core/Stream API.md",
     "07-Frontend/02-CSS/字体高度.md",
     "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md",
@@ -252,7 +253,6 @@
     "Obsidian-Related/Link-Demo1.md",
     "07-Frontend",
     "attachments/Pasted image 20240618201102.png",
-    "Todo-List.md",
     "attachments/stream-flatMap-1.drawio.svg",
     "attachments/stream-map-1.drawio.svg",
     "Excalidraw/Bypass-Gateway-Mode-Topology.excalidraw.svg",
