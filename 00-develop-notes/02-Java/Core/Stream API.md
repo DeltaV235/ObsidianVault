@@ -273,7 +273,7 @@ list.stream().map(String::toUpperCase).forEach(System.out::println);
 list.stream().map(String::length).forEach(System.out::println);
 ```
 
-![stream-mapping-map-1](../../attachments/stream-map-1.drawio.svg)
+![stream-mapping-map-1](stream-map-1.drawio.svg)
 
 #### flatMap
 
@@ -329,7 +329,7 @@ nestedPersonList.stream()
 
 **第一种 `flatMap()` 的图示：**
 
-![stream-mapping-flatMap-1](../../attachments/stream-flatMap-1.drawio.svg)
+![stream-mapping-flatMap-1](stream-flatMap-1.drawio.svg)
 
 **第二种 `flatMap()` 的图示：**
 

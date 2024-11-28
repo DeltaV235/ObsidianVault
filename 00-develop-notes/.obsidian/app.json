@@ -2,7 +2,7 @@
   "vimMode": true,
   "showLineNumber": true,
   "spellcheck": true,
-  "attachmentFolderPath": "attachments",
+  "attachmentFolderPath": "Attachments",
   "livePreview": false,
   "trashOption": "local",
   "strictLineBreaks": true,

@@ -45,12 +45,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/MacOS 制作 Win11 安装引导盘.md",
+                "file": "10-PVE/安装 OpenWRT.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "MacOS 制作 Win11 安装引导盘"
+              "title": "安装 OpenWRT"
             }
           }
         ],
@@ -182,10 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misc/MacOS 制作 Win11 安装引导盘.md"
+                "file": "10-PVE/安装 OpenWRT.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of MacOS 制作 Win11 安装引导盘"
+              "title": "Outline of 安装 OpenWRT"
             }
           },
           {
@@ -220,7 +220,13 @@
   "active": "113fd6c7cc33ebde",
   "lastOpenFiles": [
     "Misc/All-In-One/配置.md",
+    "10-PVE/安装 OpenWRT.md",
+    "10-PVE",
+    "09-Linux/LVM.md",
+    "Attachments/Pasted image 20241127101649.png",
+    "01-IDE-Guide/JetBrains/IDEA/书签.md",
     "Misc/MacOS 制作 Win11 安装引导盘.md",
+    "09-Linux",
     "Misc/All-In-One/网络拓扑.md",
     "02-Java/Core/Stream API.md",
     "07-Frontend/02-CSS/字体高度.md",
@@ -248,23 +254,17 @@
     "08-Algorithm",
     "Obsidian-Related/Template/Default.md",
     "Obsidian-Related/Template/Snippet.md",
-    "Obsidian-Related/Obsidian Tutorial.md",
-    "Obsidian-Related/Link-Demo2.md",
-    "Obsidian-Related/Link-Demo1.md",
     "07-Frontend",
-    "attachments/Pasted image 20240618201102.png",
-    "attachments/stream-flatMap-1.drawio.svg",
-    "attachments/stream-map-1.drawio.svg",
+    "Attachments/Pasted image 20240618201102.png",
+    "Attachments/stream-flatMap-1.drawio.svg",
+    "Attachments/stream-map-1.drawio.svg",
     "Excalidraw/Bypass-Gateway-Mode-Topology.excalidraw.svg",
     "Excalidraw/Bypass-Gateway-Mode-Topology.excalidraw.png",
     "Excalidraw/Library/network-topology-icons.excalidrawlib",
-    "Excalidraw/Library/未确认 612625.crdownload",
-    "Excalidraw/Library",
-    "attachments/Pasted image 20240616235513.png",
-    "attachments/Pasted image 20230304204203.png",
-    "attachments/Pasted image 20240616223208.png",
-    "attachments/Pasted image 20230422124747.png",
-    "attachments/Pasted image 20230422131244.png",
+    "Attachments/Pasted image 20240616235513.png",
+    "Attachments/Pasted image 20230304204203.png",
+    "Attachments/Pasted image 20240616223208.png",
+    "Attachments/Pasted image 20230422124747.png",
     "Untitled.canvas",
     "未命名.canvas",
     "IDE-Guide/JetBrains/IDEA/未命名.canvas"
