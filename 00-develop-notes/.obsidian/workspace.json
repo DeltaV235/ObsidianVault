@@ -30,7 +30,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/All-In-One/网络拓扑.md",
+                "file": "04-Network/网络拓扑.md",
                 "mode": "preview",
                 "source": true
               },
@@ -40,21 +40,109 @@
             }
           },
           {
-            "id": "113fd6c7cc33ebde",
+            "id": "59caa699eaa9e2a5",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10-PVE/01-OpenWrt/OpenWrt 配置.md",
+                "mode": "source",
+                "source": true
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "OpenWrt 配置"
+            }
+          },
+          {
+            "id": "4f140ff18e113b01",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Misc/IP 分配.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "IP 分配"
+            }
+          },
+          {
+            "id": "156db8b908980648",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-PVE/安装 OpenWRT.md",
+                "file": "Obsidian-Related/Link-Demo2.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Link-Demo2"
+            }
+          },
+          {
+            "id": "1f6047337a47f894",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian-Related/Link-Demo1.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Link-Demo1"
+            }
+          },
+          {
+            "id": "e85a6f2c8ecd725e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian-Related/Link-Demo1.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Link-Demo1"
+            }
+          },
+          {
+            "id": "56a80ae35b1d78ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "安装 OpenWRT"
+              "title": "OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP"
+            }
+          },
+          {
+            "id": "4a76e1bc19903d60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-Java/Core/Stream API.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Stream API"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -136,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "08-Algorithm/并查集.md",
+                "file": "Misc/IP 分配.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +234,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 并查集"
+              "title": "Backlinks for IP 分配"
             }
           },
           {
@@ -155,12 +243,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Java/Core/Stream API.md",
+                "file": "Misc/IP 分配.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Stream API"
+              "title": "Outgoing links from IP 分配"
             }
           },
           {
@@ -182,10 +270,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10-PVE/安装 OpenWRT.md"
+                "file": "Misc/IP 分配.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 安装 OpenWRT"
+              "title": "Outline of IP 分配"
             }
           },
           {
@@ -198,8 +286,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -217,20 +304,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "113fd6c7cc33ebde",
+  "active": "4f140ff18e113b01",
   "lastOpenFiles": [
-    "Misc/All-In-One/配置.md",
-    "10-PVE/安装 OpenWRT.md",
-    "10-PVE",
-    "09-Linux/LVM.md",
-    "Attachments/Pasted image 20241127101649.png",
-    "01-IDE-Guide/JetBrains/IDEA/书签.md",
-    "Misc/MacOS 制作 Win11 安装引导盘.md",
-    "09-Linux",
-    "Misc/All-In-One/网络拓扑.md",
     "02-Java/Core/Stream API.md",
-    "07-Frontend/02-CSS/字体高度.md",
+    "02-Java/Design-Pattern/Template Pattern.md",
+    "09-Linux/LVM.md",
+    "Misc/IP 分配.md",
+    "10-PVE/01-OpenWrt/构建 Immortalwrt 镜像.md",
+    "10-PVE/01-OpenWrt/OpenWrt 配置.md",
+    "10-PVE/01-OpenWrt/安装 OpenWRT.md",
+    "10-PVE/01-OpenWrt",
     "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md",
+    "Obsidian-Related/Link-Demo2.md",
+    "Obsidian-Related/Link-Demo1.md",
+    "Obsidian-Related/Obsidian Tutorial.md",
+    "Misc/All-In-One/配置.md",
+    "04-Network/网络拓扑.md",
+    "Misc/MacOS 制作 Win11 安装引导盘.md",
+    "Attachments/Pasted image 20241128175212.png.sb-f59f5411-uH4V3E",
+    "Attachments/Pasted image 20241128224551.png",
+    "Attachments/Pasted image 20241128224514.png",
+    "Attachments/Pasted image 20241128222106.png",
+    "Attachments/Pasted image 20241128221736.png",
+    "Attachments/Pasted image 20241128175212.png",
+    "Attachments/Pasted image 20241128173133.png",
+    "Attachments/Pasted image 20241128172758.png",
+    "Attachments/Pasted image 20241128172551.png",
+    "Attachments/Pasted image 20241128172318.png",
+    "Attachments/Pasted image 20241128172212.png",
+    "Software-List/MacOS-15.md",
+    "10-PVE",
+    "01-IDE-Guide/JetBrains/IDEA/书签.md",
+    "09-Linux",
+    "07-Frontend/02-CSS/字体高度.md",
     "07-Frontend/03-ECMAScript/ES 中的 this 变量.md",
     "07-Frontend/02-CSS",
     "07-Frontend/03-ECMAScript/Array.md",
@@ -243,28 +349,9 @@
     "08-Algorithm/并查集-UnionFind.md",
     "Excalidraw/Redundant-Connection-Case-1.excalidraw.md",
     "08-Algorithm/Problem/Hard",
-    "08-Algorithm/Problem/Medium/Untitled.md",
     "08-Algorithm/Problem/Medium",
     "08-Algorithm/Problem",
-    "08-Algorithm/并查集.md",
-    "Software-List/MacOS-15.md",
-    "Excalidraw/Bypass-Gateway-Mode-Topology.excalidraw.md",
-    "Excalidraw/Asymmetric-Routing-Response.excalidraw.md",
-    "Excalidraw/Asymmetric-Routing-Request.excalidraw.md",
     "08-Algorithm",
-    "Obsidian-Related/Template/Default.md",
-    "Obsidian-Related/Template/Snippet.md",
-    "07-Frontend",
-    "Attachments/Pasted image 20240618201102.png",
-    "Attachments/stream-flatMap-1.drawio.svg",
-    "Attachments/stream-map-1.drawio.svg",
-    "Excalidraw/Bypass-Gateway-Mode-Topology.excalidraw.svg",
-    "Excalidraw/Bypass-Gateway-Mode-Topology.excalidraw.png",
-    "Excalidraw/Library/network-topology-icons.excalidrawlib",
-    "Attachments/Pasted image 20240616235513.png",
-    "Attachments/Pasted image 20230304204203.png",
-    "Attachments/Pasted image 20240616223208.png",
-    "Attachments/Pasted image 20230422124747.png",
     "Untitled.canvas",
     "未命名.canvas",
     "IDE-Guide/JetBrains/IDEA/未命名.canvas"

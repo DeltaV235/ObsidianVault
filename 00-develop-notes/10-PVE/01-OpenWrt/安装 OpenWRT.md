@@ -40,3 +40,8 @@ qm importdisk 100 /var/lib/vz/template/iso/openwrt.img local-lvm
  **命令作用**
 
 - 将指定的磁盘镜像文件（`openwrt.img`）导入到虚拟机 ID 为 `100` 的虚拟机，并将其存储到 `local-lvm` 中。
+
+## Ref
+
+[如何自定义ImmortalWrt](https://wkdaily.cpolar.cn/archives/immortalwrt)
+[firmware selector for Immortlawrt](https://firmware-selector.immortalwrt.org)
