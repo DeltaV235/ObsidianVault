@@ -72,6 +72,22 @@
             }
           },
           {
+            "id": "fa8c7d45a8e4311f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software-List/MacOS-15.md",
+                "mode": "source",
+                "source": true
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "MacOS-15"
+            }
+          },
+          {
             "id": "156db8b908980648",
             "type": "leaf",
             "state": {
@@ -140,9 +156,37 @@
               "icon": "lucide-file",
               "title": "Stream API"
             }
+          },
+          {
+            "id": "c69df17af19fe2b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "07-Frontend/02-CSS/字体高度 font-size 与行高 line-height.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "字体高度 font-size 与行高 line-height"
+            }
+          },
+          {
+            "id": "9a81827d66968f99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10-PVE/01-OpenWrt/构建 Immortalwrt 镜像.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "构建 Immortalwrt 镜像"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -224,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Misc/IP 分配.md",
+                "file": "07-Frontend/02-CSS/字体高度 font-size 与行高 line-height.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +278,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for IP 分配"
+              "title": "Backlinks for 字体高度 font-size 与行高 line-height"
             }
           },
           {
@@ -243,12 +287,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Misc/IP 分配.md",
+                "file": "07-Frontend/02-CSS/字体高度 font-size 与行高 line-height.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from IP 分配"
+              "title": "Outgoing links from 字体高度 font-size 与行高 line-height"
             }
           },
           {
@@ -270,10 +314,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misc/IP 分配.md"
+                "file": "07-Frontend/02-CSS/字体高度 font-size 与行高 line-height.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of IP 分配"
+              "title": "Outline of 字体高度 font-size 与行高 line-height"
             }
           },
           {
@@ -304,23 +348,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4f140ff18e113b01",
+  "active": "c69df17af19fe2b8",
   "lastOpenFiles": [
+    "Software-List/OpenWrt-Software-List.md",
+    "Misc/MacOS 制作 Win11 安装引导盘.md",
+    "Misc/IP 分配.md",
+    "10-PVE/01-OpenWrt/OpenWrt 配置.md",
+    "10-PVE/01-OpenWrt/构建 Immortalwrt 镜像.md",
+    "10-PVE/01-OpenWrt/安装 OpenWRT.md",
+    "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md",
+    "Software-List/MacOS-15.md",
     "02-Java/Core/Stream API.md",
     "02-Java/Design-Pattern/Template Pattern.md",
     "09-Linux/LVM.md",
-    "Misc/IP 分配.md",
-    "10-PVE/01-OpenWrt/构建 Immortalwrt 镜像.md",
-    "10-PVE/01-OpenWrt/OpenWrt 配置.md",
-    "10-PVE/01-OpenWrt/安装 OpenWRT.md",
     "10-PVE/01-OpenWrt",
-    "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md",
     "Obsidian-Related/Link-Demo2.md",
     "Obsidian-Related/Link-Demo1.md",
     "Obsidian-Related/Obsidian Tutorial.md",
     "Misc/All-In-One/配置.md",
     "04-Network/网络拓扑.md",
-    "Misc/MacOS 制作 Win11 安装引导盘.md",
     "Attachments/Pasted image 20241128175212.png.sb-f59f5411-uH4V3E",
     "Attachments/Pasted image 20241128224551.png",
     "Attachments/Pasted image 20241128224514.png",
@@ -332,11 +378,10 @@
     "Attachments/Pasted image 20241128172551.png",
     "Attachments/Pasted image 20241128172318.png",
     "Attachments/Pasted image 20241128172212.png",
-    "Software-List/MacOS-15.md",
     "10-PVE",
     "01-IDE-Guide/JetBrains/IDEA/书签.md",
     "09-Linux",
-    "07-Frontend/02-CSS/字体高度.md",
+    "07-Frontend/02-CSS/字体高度 font-size 与行高 line-height.md",
     "07-Frontend/03-ECMAScript/ES 中的 this 变量.md",
     "07-Frontend/02-CSS",
     "07-Frontend/03-ECMAScript/Array.md",
@@ -347,7 +392,6 @@
     "Excalidraw/Redundant-Connection-Case-2-2.excalidraw.md",
     "Excalidraw/Redundant-Connection-Case-2.excalidraw.md",
     "08-Algorithm/并查集-UnionFind.md",
-    "Excalidraw/Redundant-Connection-Case-1.excalidraw.md",
     "08-Algorithm/Problem/Hard",
     "08-Algorithm/Problem/Medium",
     "08-Algorithm/Problem",

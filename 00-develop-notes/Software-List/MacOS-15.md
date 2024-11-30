@@ -38,6 +38,7 @@
 	- im-select: Switch your input method in shell. This project is a basic support for VSCodeVim. It provides the command line program for VSCodeVim's autoSwitchIM function.
     - neovim
     - nmap
+    - iperf3
 - Oh-My-Zsh
 	- git
 	- zsh-autosuggestions
