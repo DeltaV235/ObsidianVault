@@ -47,7 +47,7 @@
               "type": "markdown",
               "state": {
                 "file": "10-PVE/01-OpenWrt/OpenWrt 配置.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "pinned": true,
@@ -186,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -268,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07-Frontend/02-CSS/字体高度 font-size 与行高 line-height.md",
+                "file": "10-PVE/01-OpenWrt/OpenWrt 配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +278,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 字体高度 font-size 与行高 line-height"
+              "title": "Backlinks for OpenWrt 配置"
             }
           },
           {
@@ -287,12 +287,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07-Frontend/02-CSS/字体高度 font-size 与行高 line-height.md",
+                "file": "10-PVE/01-OpenWrt/OpenWrt 配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 字体高度 font-size 与行高 line-height"
+              "title": "Outgoing links from OpenWrt 配置"
             }
           },
           {
@@ -314,10 +314,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07-Frontend/02-CSS/字体高度 font-size 与行高 line-height.md"
+                "file": "10-PVE/01-OpenWrt/OpenWrt 配置.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 字体高度 font-size 与行高 line-height"
+              "title": "Outline of OpenWrt 配置"
             }
           },
           {
@@ -330,7 +330,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -348,8 +349,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c69df17af19fe2b8",
+  "active": "59caa699eaa9e2a5",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20241202234614.png",
+    "Attachments/Pasted image 20241202233636.png",
+    "Attachments/Pasted image 20241202233532.png",
+    "07-Frontend/02-CSS/字体高度 font-size 与行高 line-height.md",
     "Software-List/OpenWrt-Software-List.md",
     "Misc/MacOS 制作 Win11 安装引导盘.md",
     "Misc/IP 分配.md",
@@ -376,12 +381,9 @@
     "Attachments/Pasted image 20241128173133.png",
     "Attachments/Pasted image 20241128172758.png",
     "Attachments/Pasted image 20241128172551.png",
-    "Attachments/Pasted image 20241128172318.png",
-    "Attachments/Pasted image 20241128172212.png",
     "10-PVE",
     "01-IDE-Guide/JetBrains/IDEA/书签.md",
     "09-Linux",
-    "07-Frontend/02-CSS/字体高度 font-size 与行高 line-height.md",
     "07-Frontend/03-ECMAScript/ES 中的 this 变量.md",
     "07-Frontend/02-CSS",
     "07-Frontend/03-ECMAScript/Array.md",
@@ -391,7 +393,6 @@
     "Excalidraw/Redundant-Connection-Case-2-1.excalidraw.md",
     "Excalidraw/Redundant-Connection-Case-2-2.excalidraw.md",
     "Excalidraw/Redundant-Connection-Case-2.excalidraw.md",
-    "08-Algorithm/并查集-UnionFind.md",
     "08-Algorithm/Problem/Hard",
     "08-Algorithm/Problem/Medium",
     "08-Algorithm/Problem",

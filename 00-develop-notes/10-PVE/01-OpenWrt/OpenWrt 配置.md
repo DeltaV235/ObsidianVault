@@ -18,6 +18,14 @@ tags:
 
 ![[Pasted image 20241128172212.png]]
 
+如果 OpenWrt 作为旁路由，将设备设置为 `eth0`
+
+![[Pasted image 20241202233532.png]]
+
+如果不使用 IPv6，在高级设置中，禁用 `委托 IPv6 前缀` 和 `IPv6 分配长度`。
+
+![[Pasted image 20241202233636.png]]
+
 ## DHCP
 
 ### 主路由
@@ -92,7 +100,7 @@ Nmap done: 0 IP addresses (0 hosts up) scanned in 10.08 seconds
 
 ![[Pasted image 20241128224551.png]]
 
-### 设置 br-lan DHCP
+### 设置  DHCP
 
 将所有没有被打上 proxy tag 的设备的网管和 DNS 都设置为主路由 IP。
 在该 OpenWrt 旁路网管下线的情况下，直连设备不会受到影响，并且在续租时将被主路由 DHCP Server 分配 IP。
@@ -104,3 +112,10 @@ Nmap done: 0 IP addresses (0 hosts up) scanned in 10.08 seconds
 ![[Pasted image 20241128222106.png]]
 
 ![[Pasted image 20241128224514.png]]
+
+## Firewall
+
+禁用 `SYN-Flood Protection` 和 `FullCone NAT6`。
+如果 OpenWrt 作为旁路网管，`Zone` 只保留 `lan`。
+
+![[Pasted image 20241202234614.png]]
