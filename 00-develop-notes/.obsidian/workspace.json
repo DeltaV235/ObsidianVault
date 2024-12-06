@@ -184,9 +184,35 @@
               "icon": "lucide-file",
               "title": "构建 Immortalwrt 镜像"
             }
+          },
+          {
+            "id": "73abdf12c98048e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Misc/IP 分配.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "IP 分配"
+            }
+          },
+          {
+            "id": "757b6a33c19ade45",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -268,7 +294,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-PVE/01-OpenWrt/OpenWrt 配置.md",
+                "file": "Misc/IP 分配.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +304,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OpenWrt 配置"
+              "title": "Backlinks for IP 分配"
             }
           },
           {
@@ -287,12 +313,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10-PVE/01-OpenWrt/OpenWrt 配置.md",
+                "file": "Misc/IP 分配.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from OpenWrt 配置"
+              "title": "Outgoing links from IP 分配"
             }
           },
           {
@@ -313,11 +339,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "10-PVE/01-OpenWrt/OpenWrt 配置.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of OpenWrt 配置"
+              "title": "Outline"
             }
           },
           {
@@ -349,8 +373,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "59caa699eaa9e2a5",
+  "active": "757b6a33c19ade45",
   "lastOpenFiles": [
+    "10-PVE/01-OpenWrt/OpenWrt 配置.md",
     "Attachments/Pasted image 20241202234614.png",
     "Attachments/Pasted image 20241202233636.png",
     "Attachments/Pasted image 20241202233532.png",
@@ -358,7 +383,6 @@
     "Software-List/OpenWrt-Software-List.md",
     "Misc/MacOS 制作 Win11 安装引导盘.md",
     "Misc/IP 分配.md",
-    "10-PVE/01-OpenWrt/OpenWrt 配置.md",
     "10-PVE/01-OpenWrt/构建 Immortalwrt 镜像.md",
     "10-PVE/01-OpenWrt/安装 OpenWRT.md",
     "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md",
@@ -380,7 +404,6 @@
     "Attachments/Pasted image 20241128175212.png",
     "Attachments/Pasted image 20241128173133.png",
     "Attachments/Pasted image 20241128172758.png",
-    "Attachments/Pasted image 20241128172551.png",
     "10-PVE",
     "01-IDE-Guide/JetBrains/IDEA/书签.md",
     "09-Linux",
