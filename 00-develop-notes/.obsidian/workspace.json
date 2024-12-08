@@ -198,21 +198,9 @@
               "icon": "lucide-file",
               "title": "IP 分配"
             }
-          },
-          {
-            "id": "757b6a33c19ade45",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
-            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -294,7 +282,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Misc/IP 分配.md",
+                "file": "Attachments/Pasted image 20241207164151.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,7 +292,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for IP 分配"
+              "title": "Backlinks for Pasted image 20241207164151"
             }
           },
           {
@@ -313,12 +301,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Misc/IP 分配.md",
+                "file": "Attachments/Pasted image 20241207164151.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from IP 分配"
+              "title": "Outgoing links from Pasted image 20241207164151"
             }
           },
           {
@@ -339,9 +327,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Attachments/Pasted image 20241207164151.png"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Pasted image 20241207164151"
             }
           },
           {
@@ -354,8 +344,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -373,12 +362,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "757b6a33c19ade45",
+  "active": "e8b04d0e5f55f45a",
   "lastOpenFiles": [
-    "10-PVE/01-OpenWrt/OpenWrt 配置.md",
-    "Attachments/Pasted image 20241202234614.png",
-    "Attachments/Pasted image 20241202233636.png",
+    "Attachments/Pasted image 20241128172212.png",
+    "Attachments/Pasted image 20241207164107.png",
+    "Attachments/Pasted image 20241128172318.png",
+    "Attachments/Pasted image 20241128172758.png",
+    "Attachments/Pasted image 20241128173133.png",
+    "Attachments/Pasted image 20241128175212.png",
+    "Attachments/Pasted image 20241128221736.png",
+    "Attachments/Pasted image 20241128222106.png",
+    "Attachments/Pasted image 20241128224514.png",
+    "Attachments/Pasted image 20241128224551.png",
     "Attachments/Pasted image 20241202233532.png",
+    "07-Frontend/02-CSS/使行内元素或行内块元素在父元素中垂直居中.md",
+    "10-PVE/01-OpenWrt/OpenWrt 配置.md",
     "07-Frontend/02-CSS/字体高度 font-size 与行高 line-height.md",
     "Software-List/OpenWrt-Software-List.md",
     "Misc/MacOS 制作 Win11 安装引导盘.md",
@@ -397,13 +395,6 @@
     "Misc/All-In-One/配置.md",
     "04-Network/网络拓扑.md",
     "Attachments/Pasted image 20241128175212.png.sb-f59f5411-uH4V3E",
-    "Attachments/Pasted image 20241128224551.png",
-    "Attachments/Pasted image 20241128224514.png",
-    "Attachments/Pasted image 20241128222106.png",
-    "Attachments/Pasted image 20241128221736.png",
-    "Attachments/Pasted image 20241128175212.png",
-    "Attachments/Pasted image 20241128173133.png",
-    "Attachments/Pasted image 20241128172758.png",
     "10-PVE",
     "01-IDE-Guide/JetBrains/IDEA/书签.md",
     "09-Linux",
@@ -415,7 +406,6 @@
     "08-Algorithm/Problem/Hard/冗余连接II-Redundant-Connection.md",
     "Excalidraw/Redundant-Connection-Case-2-1.excalidraw.md",
     "Excalidraw/Redundant-Connection-Case-2-2.excalidraw.md",
-    "Excalidraw/Redundant-Connection-Case-2.excalidraw.md",
     "08-Algorithm/Problem/Hard",
     "08-Algorithm/Problem/Medium",
     "08-Algorithm/Problem",
