@@ -88,119 +88,35 @@
             }
           },
           {
-            "id": "156db8b908980648",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian-Related/Link-Demo2.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Link-Demo2"
-            }
-          },
-          {
-            "id": "1f6047337a47f894",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian-Related/Link-Demo1.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Link-Demo1"
-            }
-          },
-          {
-            "id": "e85a6f2c8ecd725e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian-Related/Link-Demo1.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Link-Demo1"
-            }
-          },
-          {
-            "id": "56a80ae35b1d78ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP"
-            }
-          },
-          {
-            "id": "4a76e1bc19903d60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-Java/Core/Stream API.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Stream API"
-            }
-          },
-          {
-            "id": "c69df17af19fe2b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "07-Frontend/02-CSS/字体高度 font-size 与行高 line-height.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "字体高度 font-size 与行高 line-height"
-            }
-          },
-          {
-            "id": "9a81827d66968f99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10-PVE/01-OpenWrt/构建 Immortalwrt 镜像.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "构建 Immortalwrt 镜像"
-            }
-          },
-          {
             "id": "73abdf12c98048e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/IP 分配.md",
+                "file": "10-PVE/03-Windows/PVE 中 Win11 的安装.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "PVE 中 Win11 的安装"
+            }
+          },
+          {
+            "id": "3aa51498ccf0cd05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10-PVE/PVE 换源.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "IP 分配"
+              "title": "PVE 换源"
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -282,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/Pasted image 20241207164151.png",
+                "file": "10-PVE/03-Windows/PVE 中 Win11 的安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +208,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pasted image 20241207164151"
+              "title": "Backlinks for PVE 中 Win11 的安装"
             }
           },
           {
@@ -301,12 +217,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attachments/Pasted image 20241207164151.png",
+                "file": "10-PVE/03-Windows/PVE 中 Win11 的安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Pasted image 20241207164151"
+              "title": "Outgoing links from PVE 中 Win11 的安装"
             }
           },
           {
@@ -328,10 +244,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachments/Pasted image 20241207164151.png"
+                "file": "10-PVE/03-Windows/PVE 中 Win11 的安装.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20241207164151"
+              "title": "Outline of PVE 中 Win11 的安装"
             }
           },
           {
@@ -344,7 +260,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -362,29 +279,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e8b04d0e5f55f45a",
+  "active": "73abdf12c98048e3",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20241219234243.png",
+    "Attachments/Pasted image 20241219234128.png",
+    "Attachments/Pasted image 20241219234103.png",
+    "Software-List/MacOS-15.md",
+    "10-PVE/03-Windows/PVE 中 Win11 的安装.md",
+    "10-PVE/03-Windows",
+    "10-PVE/02-NAS/SATA 控制器直通.md",
+    "10-PVE/PVE 换源.md",
+    "10-PVE/从错误的直通配置中恢复 PVE 至可用状态.md",
+    "10-PVE/01-OpenWrt/构建 Immortalwrt 镜像.md",
+    "Attachments/Pasted image 20241219154554.png",
+    "Attachments/Pasted image 20241219154502.png",
+    "Attachments/Pasted image 20241219154427.png",
+    "Attachments/Pasted image 20241207164151.png",
+    "10-PVE/02-NAS",
     "Attachments/Pasted image 20241128172212.png",
     "Attachments/Pasted image 20241207164107.png",
     "Attachments/Pasted image 20241128172318.png",
     "Attachments/Pasted image 20241128172758.png",
-    "Attachments/Pasted image 20241128173133.png",
-    "Attachments/Pasted image 20241128175212.png",
-    "Attachments/Pasted image 20241128221736.png",
-    "Attachments/Pasted image 20241128222106.png",
-    "Attachments/Pasted image 20241128224514.png",
-    "Attachments/Pasted image 20241128224551.png",
-    "Attachments/Pasted image 20241202233532.png",
     "07-Frontend/02-CSS/使行内元素或行内块元素在父元素中垂直居中.md",
     "10-PVE/01-OpenWrt/OpenWrt 配置.md",
     "07-Frontend/02-CSS/字体高度 font-size 与行高 line-height.md",
     "Software-List/OpenWrt-Software-List.md",
     "Misc/MacOS 制作 Win11 安装引导盘.md",
     "Misc/IP 分配.md",
-    "10-PVE/01-OpenWrt/构建 Immortalwrt 镜像.md",
     "10-PVE/01-OpenWrt/安装 OpenWRT.md",
     "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md",
-    "Software-List/MacOS-15.md",
     "02-Java/Core/Stream API.md",
     "02-Java/Design-Pattern/Template Pattern.md",
     "09-Linux/LVM.md",
@@ -401,15 +324,9 @@
     "07-Frontend/03-ECMAScript/ES 中的 this 变量.md",
     "07-Frontend/02-CSS",
     "07-Frontend/03-ECMAScript/Array.md",
-    "07-Frontend/03-ECMAScript/闭包.md",
     "07-Frontend/03-ECMAScript",
-    "08-Algorithm/Problem/Hard/冗余连接II-Redundant-Connection.md",
-    "Excalidraw/Redundant-Connection-Case-2-1.excalidraw.md",
-    "Excalidraw/Redundant-Connection-Case-2-2.excalidraw.md",
     "08-Algorithm/Problem/Hard",
     "08-Algorithm/Problem/Medium",
-    "08-Algorithm/Problem",
-    "08-Algorithm",
     "Untitled.canvas",
     "未命名.canvas",
     "IDE-Guide/JetBrains/IDEA/未命名.canvas"
