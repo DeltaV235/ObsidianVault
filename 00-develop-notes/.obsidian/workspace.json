@@ -88,20 +88,6 @@
             }
           },
           {
-            "id": "73abdf12c98048e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10-PVE/03-Windows/PVE 中 Win11 的安装.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "PVE 中 Win11 的安装"
-            }
-          },
-          {
             "id": "3aa51498ccf0cd05",
             "type": "leaf",
             "state": {
@@ -116,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -198,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-PVE/03-Windows/PVE 中 Win11 的安装.md",
+                "file": "Software-List/MacOS-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +194,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PVE 中 Win11 的安装"
+              "title": "Backlinks for MacOS-15"
             }
           },
           {
@@ -217,12 +203,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10-PVE/03-Windows/PVE 中 Win11 的安装.md",
+                "file": "Software-List/MacOS-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from PVE 中 Win11 的安装"
+              "title": "Outgoing links from MacOS-15"
             }
           },
           {
@@ -244,10 +230,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10-PVE/03-Windows/PVE 中 Win11 的安装.md"
+                "file": "Software-List/MacOS-15.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of PVE 中 Win11 的安装"
+              "title": "Outline of MacOS-15"
             }
           },
           {
@@ -261,7 +247,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -279,17 +265,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "73abdf12c98048e3",
+  "active": "fa8c7d45a8e4311f",
   "lastOpenFiles": [
+    "Obsidian-Related/Template/Snippet.md",
+    "Obsidian-Related/Template/Default.md",
+    "10-PVE/通过 Live CD 恢复 PVE.md",
+    "Attachments/Pasted image 20241222193629.png",
+    "10-PVE/从错误的直通配置中恢复 PVE 至可用状态.md",
+    "10-PVE/02-NAS/SATA 控制器直通.md",
+    "10-PVE/03-Windows/PVE 中 Win11 的安装.md",
     "Attachments/Pasted image 20241219234243.png",
     "Attachments/Pasted image 20241219234128.png",
     "Attachments/Pasted image 20241219234103.png",
     "Software-List/MacOS-15.md",
-    "10-PVE/03-Windows/PVE 中 Win11 的安装.md",
     "10-PVE/03-Windows",
-    "10-PVE/02-NAS/SATA 控制器直通.md",
     "10-PVE/PVE 换源.md",
-    "10-PVE/从错误的直通配置中恢复 PVE 至可用状态.md",
     "10-PVE/01-OpenWrt/构建 Immortalwrt 镜像.md",
     "Attachments/Pasted image 20241219154554.png",
     "Attachments/Pasted image 20241219154502.png",
@@ -298,8 +288,6 @@
     "10-PVE/02-NAS",
     "Attachments/Pasted image 20241128172212.png",
     "Attachments/Pasted image 20241207164107.png",
-    "Attachments/Pasted image 20241128172318.png",
-    "Attachments/Pasted image 20241128172758.png",
     "07-Frontend/02-CSS/使行内元素或行内块元素在父元素中垂直居中.md",
     "10-PVE/01-OpenWrt/OpenWrt 配置.md",
     "07-Frontend/02-CSS/字体高度 font-size 与行高 line-height.md",
@@ -321,9 +309,7 @@
     "10-PVE",
     "01-IDE-Guide/JetBrains/IDEA/书签.md",
     "09-Linux",
-    "07-Frontend/03-ECMAScript/ES 中的 this 变量.md",
     "07-Frontend/02-CSS",
-    "07-Frontend/03-ECMAScript/Array.md",
     "07-Frontend/03-ECMAScript",
     "08-Algorithm/Problem/Hard",
     "08-Algorithm/Problem/Medium",

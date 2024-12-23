@@ -5,5 +5,3 @@ created: {{date}}
 tags:
 
 ---
-
-# {{title}}
