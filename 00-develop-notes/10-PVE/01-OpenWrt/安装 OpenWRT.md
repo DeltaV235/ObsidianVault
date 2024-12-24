@@ -6,6 +6,7 @@ tags:
     - HomeServer
     - OpenWRT
     - SoftRouter
+    - Tutorial
 ---
 
 # 安装 OpenWRT

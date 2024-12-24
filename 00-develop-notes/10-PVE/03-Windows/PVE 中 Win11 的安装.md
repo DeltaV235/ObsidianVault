@@ -5,6 +5,7 @@ tags:
     - PVE
     - Windows
     - Install
+    - Tutorial
 ---
 
 # PVE 中 Win11 的安装

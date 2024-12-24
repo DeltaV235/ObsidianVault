@@ -6,6 +6,7 @@ tags:
     - PVE
     - HomeServer
     - DHCP
+    - Tutorial
 ---
 
 # OpenWrt 配置

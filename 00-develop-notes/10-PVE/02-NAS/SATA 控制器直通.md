@@ -5,6 +5,7 @@ tags:
     - PVE
     - Passthrough
     - NAS
+    - Tutorial
 ---
 
 # SATA 控制器直通

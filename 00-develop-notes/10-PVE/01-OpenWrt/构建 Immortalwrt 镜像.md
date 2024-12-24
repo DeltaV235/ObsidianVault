@@ -6,6 +6,7 @@ tags:
     - HomeServer
     - OpenWrt
     - Immortalwrt
+    - Tutorial
 ---
 
 # 构建 Immortalwrt 镜像

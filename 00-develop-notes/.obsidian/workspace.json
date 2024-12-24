@@ -93,16 +93,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-PVE/PVE 换源.md",
+                "file": "10-PVE/03-Windows/AMD 核显直通 Windows.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "PVE 换源"
+              "title": "AMD 核显直通 Windows"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software-List/MacOS-15.md",
+                "file": "10-PVE/03-Windows/AMD 核显直通 Windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MacOS-15"
+              "title": "Backlinks for AMD 核显直通 Windows"
             }
           },
           {
@@ -203,12 +203,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software-List/MacOS-15.md",
+                "file": "10-PVE/03-Windows/AMD 核显直通 Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from MacOS-15"
+              "title": "Outgoing links from AMD 核显直通 Windows"
             }
           },
           {
@@ -230,10 +230,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-List/MacOS-15.md"
+                "file": "10-PVE/03-Windows/AMD 核显直通 Windows.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of MacOS-15"
+              "title": "Outline of AMD 核显直通 Windows"
             }
           },
           {
@@ -247,7 +247,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -265,36 +265,41 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fa8c7d45a8e4311f",
+  "active": "3aa51498ccf0cd05",
   "lastOpenFiles": [
-    "Obsidian-Related/Template/Snippet.md",
+    "Attachments/Pasted image 20241224110136.png",
+    "Attachments/Pasted image 20241224110103.png",
+    "Attachments/Pasted image 20241224105737.png",
+    "10-PVE/03-Windows/AMD 核显直通 Windows.md",
+    "Attachments/Pasted image 20241224110032.png",
+    "10-PVE/03-Windows/image.png",
+    "Attachments/Pasted image 20241224105732.png",
+    "Attachments/Pasted image 20241224012024.png",
+    "Attachments/Pasted image 20241224011709.png",
+    "Attachments/Pasted image 20241224011633.png",
+    "Attachments/Pasted image 20241224004503.png",
     "Obsidian-Related/Template/Default.md",
-    "10-PVE/通过 Live CD 恢复 PVE.md",
-    "Attachments/Pasted image 20241222193629.png",
-    "10-PVE/从错误的直通配置中恢复 PVE 至可用状态.md",
-    "10-PVE/02-NAS/SATA 控制器直通.md",
+    "11-Migrant/欧洲那些国家对父母移民比较友好？.md",
+    "11-Migrant",
     "10-PVE/03-Windows/PVE 中 Win11 的安装.md",
-    "Attachments/Pasted image 20241219234243.png",
-    "Attachments/Pasted image 20241219234128.png",
-    "Attachments/Pasted image 20241219234103.png",
-    "Software-List/MacOS-15.md",
-    "10-PVE/03-Windows",
+    "Attachments/Pasted image 20241223233635.png",
+    "10-PVE/通过 Live CD 恢复 PVE.md",
     "10-PVE/PVE 换源.md",
-    "10-PVE/01-OpenWrt/构建 Immortalwrt 镜像.md",
-    "Attachments/Pasted image 20241219154554.png",
-    "Attachments/Pasted image 20241219154502.png",
-    "Attachments/Pasted image 20241219154427.png",
-    "Attachments/Pasted image 20241207164151.png",
-    "10-PVE/02-NAS",
-    "Attachments/Pasted image 20241128172212.png",
-    "Attachments/Pasted image 20241207164107.png",
-    "07-Frontend/02-CSS/使行内元素或行内块元素在父元素中垂直居中.md",
+    "Misc/IP 分配.md",
+    "Misc/All-In-One/配置.md",
     "10-PVE/01-OpenWrt/OpenWrt 配置.md",
+    "10-PVE/01-OpenWrt/构建 Immortalwrt 镜像.md",
+    "10-PVE/01-OpenWrt/安装 OpenWRT.md",
+    "10-PVE/02-NAS/SATA 控制器直通.md",
+    "Software-List/MacOS-15.md",
+    "Obsidian-Related/Template/Snippet.md",
+    "10-PVE/从错误的直通配置中恢复 PVE 至可用状态.md",
+    "10-PVE/03-Windows",
+    "10-PVE/02-NAS",
+    "07-Frontend/02-CSS/使行内元素或行内块元素在父元素中垂直居中.md",
     "07-Frontend/02-CSS/字体高度 font-size 与行高 line-height.md",
     "Software-List/OpenWrt-Software-List.md",
     "Misc/MacOS 制作 Win11 安装引导盘.md",
-    "Misc/IP 分配.md",
-    "10-PVE/01-OpenWrt/安装 OpenWRT.md",
     "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md",
     "02-Java/Core/Stream API.md",
     "02-Java/Design-Pattern/Template Pattern.md",
@@ -302,17 +307,12 @@
     "10-PVE/01-OpenWrt",
     "Obsidian-Related/Link-Demo2.md",
     "Obsidian-Related/Link-Demo1.md",
-    "Obsidian-Related/Obsidian Tutorial.md",
-    "Misc/All-In-One/配置.md",
-    "04-Network/网络拓扑.md",
     "Attachments/Pasted image 20241128175212.png.sb-f59f5411-uH4V3E",
     "10-PVE",
-    "01-IDE-Guide/JetBrains/IDEA/书签.md",
     "09-Linux",
     "07-Frontend/02-CSS",
     "07-Frontend/03-ECMAScript",
     "08-Algorithm/Problem/Hard",
-    "08-Algorithm/Problem/Medium",
     "Untitled.canvas",
     "未命名.canvas",
     "IDE-Guide/JetBrains/IDEA/未命名.canvas"
