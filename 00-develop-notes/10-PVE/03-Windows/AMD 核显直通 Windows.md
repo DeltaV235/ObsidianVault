@@ -14,12 +14,13 @@ tags:
 
 - [AMD核显直通显示输出简单方法完整版无定制OVMF开机BIOS启动画面](https://diyforfun.cn/712.html)
 - [AMD核显直通显示输出简单方法完整版无定制OVMF开机BIOS启动画面](https://post.smzdm.com/p/axo95nvd/)
+- [PVE环境5600G核显直通并输出HDMI接口](https://post.smzdm.com/p/ao9z9d67/)
 - [PVE使用AMD CPU 5600G 核显直通](https://blog.csdn.net/qq_42912965/article/details/126815332)
 - [PVE下AMD核显直通教程](https://www.bilibili.com/opus/821201771406819398)
 - [GMK极摩客K8，PVE8.1下AMD 8845HS WIN11核显直通，HDMI+DP+TYPE-C+音频输出正常;教程适用于GMK极摩客K6](https://post.smzdm.com/p/aqq52rqx/)
 - [【NAS】PVE下AMD核显直通和基本配置](https://www.bilibili.com/opus/822884865987838001)
-- [PVE环境5600G核显直通并输出HDMI接口](https://post.smzdm.com/p/ao9z9d67/)
 - [PVE7 AMD 5700G 核显直通 (iGPU Passthrough)](https://www.bilibili.com/video/BV11d4y1G7Nk/?vd_source=f812625f00cdd1b06ca2f4281718b552)
+- [[深度探索] virt-manager的逆天gpu性能](https://bbs.deepin.org/zh/post/273171)
 
 ## PVE 配置
 
@@ -47,12 +48,19 @@ vi /etc/default/grub
 ```
 
 - 添加 `initcall_blacklist=sysfb_init iommu=pt amd_iommu=on pcie_acs_override=downstream,multifunction` 到 `GRUB_CMDLINE_LINUX_DEFAULT` 中，如下所示：
-  - `iommu=pt` 设置iommu为直通模式 pass through
+  - `initcall_blacklist=sysfb_init` 防止系统占用核显
+  - `iommu=pt` 设置 IOMMU 为直通模式 Pass Through
   - `amd_iommu=on` 开启 AMD IOMMU
   - `pcie_acs_override=downstream,multifunction` 用于分离 PCIe 设备，使其能够被单独直通，否则会导致整个 IOMMU 组被直通
 
+> 注意：1、pve内核经常更新，amd_iommu=on有的内核已经内置，因此不需要上面加amd_iommu=on。如果遇到更新pve内核后，提示iommu没有开启，请手动在以上此处添加amd_iommu=on，并update-grub重启后即可解决。
+> 2、initcall_blacklist=sysfb_init 启动时运行黑名单内添加项，在Intel的机型中，此项非必要添加，但是在amd机型中建议添加，否则会影响核显直通后的性能，比如4K60Hz降低到30Hz。
+> 3、pcie_acs_override=downstream,multifunction PCI ACS覆盖参数避免死机设置为两者/多用途，避免PVE虚拟Win开关机时死机。
+
 ```bash
 GRUB_CMDLINE_LINUX_DEFAULT="quiet initcall_blacklist=sysfb_init iommu=pt amd_iommu=on pcie_acs_override=downstream,multifunction"
+# 移除 iommu=pt 和 amd_iommu=on 参数后，核显依旧可以正常直通，采用下方的配置
+GRUB_CMDLINE_LINUX_DEFAULT="quiet initcall_blacklist=sysfb_init pcie_acs_override=downstream,multifunction"
 ```
 
 - 更新 GRUB 配置
@@ -68,19 +76,24 @@ vi /etc/modprobe.d/pve-blacklist.conf
 ```
 
 ```bash
+# This file contains a list of modules which are not supported by Proxmox VE 
+
+# nvidiafb see bugreport https://bugzilla.proxmox.com/show_bug.cgi?id=701
+blacklist nvidiafb
+
 # block AMD driver
-blacklist radeon
+# blacklist radeon
 blacklist amdgpu
 
 # block NVIDIA driver
-blacklist nouveau
-blacklist nvidia
-blacklist nvidiafb
+# blacklist nouveau
+# blacklist nvidia
+# blacklist nvidiafb
 
 # block INTEL driver
-blacklist snd_hda_intel
-blacklist snd_hda_codec_hdmi
-blacklist i915
+# blacklist snd_hda_intel
+# blacklist snd_hda_codec_hdmi
+# blacklist i915
 
 options vfio_iommu_type1 allow_unsafe_interrupts=1
 ```
@@ -166,7 +179,7 @@ GOP 目录的文件是 `AMDGopDriver.efi`，把 `AMDGopDriver.efi` 拷贝到 `ed
 `XXXX` 为具体自己的核显设备 ID，通过上述 `lspci` 获取 5500GT 核显的设备 ID 为 0x1638。
 
 ```cmd
-.EfiRom.exe -f 0x1002 -i 0xXXXX -e AMDGopDriver.efi
+EfiRom.exe -f 0x1002 -i 0xXXXX -e AMDGopDriver.efi
 ```
 
 执行成功后，在 `AMDGopDriver.efi` 同目录下会生成一个 `AMDGopDriver.rom` 文件。
@@ -235,6 +248,8 @@ RadeonResetBugFixService.exe install
 
 安装完成后，Windows 设备管理器以及任务管理器中会显示 AMD 核显设备。
 
+AMD GPU 可用后，可以在 PVE 中将 `Display` 设置为 `none`，不再使用默认的 `VGA`。
+
 ### 10. 添加 USB 设备和音频输出设备等
 
 添加键鼠等 USB 设备和音频输出设备等，使虚拟机可以正常使用。
@@ -254,3 +269,28 @@ USB 设备从上至下分别为：
 ![[Pasted image 20241224110103.png]]
 
 ![[Pasted image 20241224110136.png]]
+
+### 11. 隐藏虚拟化环境（可选）
+
+某些软件可能拒绝运行在虚拟机中（如 DRM 限制、虚拟化检测工具等），此配置可以隐藏虚拟化环境。
+
+```bash
+vi /etc/pve/qemu-server/{VM-ID}.conf
+```
+
+添加如下配置
+
+```bash
+args: -cpu 'host,-hypervisor'
+```
+
+- host: 使用宿主机的 CPU 特性。性能最佳，因为它尽可能减少了 CPU 特性模拟。
+- -hypervisor: 隐藏虚拟化环境。hypervisor 标志通常用于指示操作系统（如 Linux 或 Windows）当前运行在虚拟化环境中。禁用此标志可以“隐藏”虚拟化环境，使虚拟机中的操作系统认为它运行在物理机上。
+
+---
+
+```bash
+cpu: host,hidden=1
+```
+
+- hidden=1: 隐藏虚拟化环境。隐藏虚拟化环境，使虚拟机中的操作系统认为它运行在物理机上。
