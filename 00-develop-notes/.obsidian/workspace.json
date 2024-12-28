@@ -88,17 +88,17 @@
             }
           },
           {
-            "id": "3aa51498ccf0cd05",
+            "id": "2140a3e7dd05f8fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-PVE/03-Windows/AMD 核显直通 Windows.md",
-                "mode": "preview",
+                "file": "Misc/HC550.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AMD 核显直通 Windows"
+              "title": "HC550"
             }
           }
         ],
@@ -230,10 +230,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10-PVE/03-Windows/AMD 核显直通 Windows.md"
+                "file": "Misc/HC550.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of AMD 核显直通 Windows"
+              "title": "Outline of HC550"
             }
           },
           {
@@ -265,24 +265,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3aa51498ccf0cd05",
+  "active": "2140a3e7dd05f8fb",
   "lastOpenFiles": [
+    "Misc/MacOS 制作 Win11 安装引导盘.md",
+    "Misc/HC550.md",
+    "10-PVE/更改 Default Domain Type 为 Passthrough.md",
+    "10-PVE/03-Windows/AMD 核显直通 Windows.md",
+    "10-PVE/02-NAS/SATA 控制器直通.md",
+    "Attachments/TimeSpy-2024-12-27-125043-PT.png",
+    "Attachments/FireStrike-2024-12-27-132541-PT.png",
+    "Attachments/TimeSpy-2024-12-27-122518-Translate.png",
+    "Attachments/FireStrike-2024-12-27-134459-Translate.png",
+    "Attachments/屏幕截图 2024-12-27 133324.png",
+    "Attachments/屏幕截图 2024-12-27 124113.png",
+    "Attachments/Pasted image 20241227153507.png",
+    "10-PVE/03-Windows/PVE 中 Win11 的安装.md",
+    "02-Java/Core/Stream API.md",
+    "Software-List/MacOS-15.md",
     "Attachments/Pasted image 20241224110136.png",
     "Attachments/Pasted image 20241224110103.png",
     "Attachments/Pasted image 20241224105737.png",
-    "10-PVE/03-Windows/AMD 核显直通 Windows.md",
-    "Attachments/Pasted image 20241224110032.png",
-    "10-PVE/03-Windows/image.png",
-    "Attachments/Pasted image 20241224105732.png",
-    "Attachments/Pasted image 20241224012024.png",
-    "Attachments/Pasted image 20241224011709.png",
-    "Attachments/Pasted image 20241224011633.png",
-    "Attachments/Pasted image 20241224004503.png",
     "Obsidian-Related/Template/Default.md",
     "11-Migrant/欧洲那些国家对父母移民比较友好？.md",
     "11-Migrant",
-    "10-PVE/03-Windows/PVE 中 Win11 的安装.md",
-    "Attachments/Pasted image 20241223233635.png",
     "10-PVE/通过 Live CD 恢复 PVE.md",
     "10-PVE/PVE 换源.md",
     "Misc/IP 分配.md",
@@ -290,8 +295,6 @@
     "10-PVE/01-OpenWrt/OpenWrt 配置.md",
     "10-PVE/01-OpenWrt/构建 Immortalwrt 镜像.md",
     "10-PVE/01-OpenWrt/安装 OpenWRT.md",
-    "10-PVE/02-NAS/SATA 控制器直通.md",
-    "Software-List/MacOS-15.md",
     "Obsidian-Related/Template/Snippet.md",
     "10-PVE/从错误的直通配置中恢复 PVE 至可用状态.md",
     "10-PVE/03-Windows",
@@ -299,14 +302,11 @@
     "07-Frontend/02-CSS/使行内元素或行内块元素在父元素中垂直居中.md",
     "07-Frontend/02-CSS/字体高度 font-size 与行高 line-height.md",
     "Software-List/OpenWrt-Software-List.md",
-    "Misc/MacOS 制作 Win11 安装引导盘.md",
     "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md",
-    "02-Java/Core/Stream API.md",
     "02-Java/Design-Pattern/Template Pattern.md",
     "09-Linux/LVM.md",
     "10-PVE/01-OpenWrt",
     "Obsidian-Related/Link-Demo2.md",
-    "Obsidian-Related/Link-Demo1.md",
     "Attachments/Pasted image 20241128175212.png.sb-f59f5411-uH4V3E",
     "10-PVE",
     "09-Linux",

@@ -21,6 +21,8 @@ tags:
 - [【NAS】PVE下AMD核显直通和基本配置](https://www.bilibili.com/opus/822884865987838001)
 - [PVE7 AMD 5700G 核显直通 (iGPU Passthrough)](https://www.bilibili.com/video/BV11d4y1G7Nk/?vd_source=f812625f00cdd1b06ca2f4281718b552)
 - [[深度探索] virt-manager的逆天gpu性能](https://bbs.deepin.org/zh/post/273171)
+- [PCI Passthrough](https://pve.proxmox.com/wiki/PCI_Passthrough)
+- [PCI(e) Passthrough](https://pve.proxmox.com/wiki/PCI(e)_Passthrough)
 
 ## PVE 配置
 
@@ -57,10 +59,20 @@ vi /etc/default/grub
 > 2、initcall_blacklist=sysfb_init 启动时运行黑名单内添加项，在Intel的机型中，此项非必要添加，但是在amd机型中建议添加，否则会影响核显直通后的性能，比如4K60Hz降低到30Hz。
 > 3、pcie_acs_override=downstream,multifunction PCI ACS覆盖参数避免死机设置为两者/多用途，避免PVE虚拟Win开关机时死机。
 
+[# PCI(e) Passthrough](https://pve.proxmox.com/wiki/PCI(e)_Passthrough#:~:text=With%20AMD%20CPUs%20IOMMU%20is%20enabled%20by%20default.%20)
+
+> With AMD CPUs IOMMU is enabled by default.
+
+> If your hardware supports IOMMU passthrough mode, enabling this mode might increase performance.
+
+根据上述文档，AMD 已经默认打开了 IOMMU，无需添加 `amd_iommu=on` 选项。添加 `iommu=pt` 选项后，核显性能可能会有所提升。[[更改 Default Domain Type 为 Passthrough]]
+
 ```bash
 GRUB_CMDLINE_LINUX_DEFAULT="quiet initcall_blacklist=sysfb_init iommu=pt amd_iommu=on pcie_acs_override=downstream,multifunction"
 # 移除 iommu=pt 和 amd_iommu=on 参数后，核显依旧可以正常直通，采用下方的配置
 GRUB_CMDLINE_LINUX_DEFAULT="quiet initcall_blacklist=sysfb_init pcie_acs_override=downstream,multifunction"
+# 2024/12/27 update，根据官方文档，添加 iommu=pt 参数后，核显性能可能会有所提升，采用下方的配置
+GRUB_CMDLINE_LINUX_DEFAULT="quiet initcall_blacklist=sysfb_init iommu=pt pcie_acs_override=downstream,multifunction"
 ```
 
 - 更新 GRUB 配置
@@ -91,14 +103,19 @@ blacklist amdgpu
 # blacklist nvidiafb
 
 # block INTEL driver
-# blacklist snd_hda_intel
+blacklist snd_hda_intel
 # blacklist snd_hda_codec_hdmi
 # blacklist i915
+
+# block SATA controller
+blacklist ahci
 
 options vfio_iommu_type1 allow_unsafe_interrupts=1
 ```
 
 - blacklist `radeon` 和 `amdgpu` 防止 AMD 核显被系统占用
+- blacklist `snd_hda_intel` 防止声卡被系统占用
+- blacklist `ahci` 防止 SATA 控制器被系统占用
 - options `vfio_iommu_type1 allow_unsafe_interrupts=1` 允许不安全的中断
 
 ### 4. 添加内核模块
@@ -294,3 +311,7 @@ cpu: host,hidden=1
 ```
 
 - hidden=1: 隐藏虚拟化环境。隐藏虚拟化环境，使虚拟机中的操作系统认为它运行在物理机上。
+
+### 12. 配置 SMBIOS
+
+![[Pasted image 20241227153507.png]]
