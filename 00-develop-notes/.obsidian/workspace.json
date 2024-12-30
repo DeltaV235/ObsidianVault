@@ -93,12 +93,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/HC550.md",
-                "mode": "source",
+                "file": "10-PVE/更改 Default Domain Type 为 Passthrough.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "HC550"
+              "title": "更改 Default Domain Type 为 Passthrough"
             }
           }
         ],
@@ -230,10 +230,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misc/HC550.md"
+                "file": "10-PVE/更改 Default Domain Type 为 Passthrough.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of HC550"
+              "title": "Outline of 更改 Default Domain Type 为 Passthrough"
             }
           },
           {
@@ -267,8 +267,9 @@
   },
   "active": "2140a3e7dd05f8fb",
   "lastOpenFiles": [
-    "Misc/MacOS 制作 Win11 安装引导盘.md",
+    "Misc/IP 分配.md",
     "Misc/HC550.md",
+    "Misc/MacOS 制作 Win11 安装引导盘.md",
     "10-PVE/更改 Default Domain Type 为 Passthrough.md",
     "10-PVE/03-Windows/AMD 核显直通 Windows.md",
     "10-PVE/02-NAS/SATA 控制器直通.md",
@@ -290,7 +291,6 @@
     "11-Migrant",
     "10-PVE/通过 Live CD 恢复 PVE.md",
     "10-PVE/PVE 换源.md",
-    "Misc/IP 分配.md",
     "Misc/All-In-One/配置.md",
     "10-PVE/01-OpenWrt/OpenWrt 配置.md",
     "10-PVE/01-OpenWrt/构建 Immortalwrt 镜像.md",
