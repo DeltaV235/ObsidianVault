@@ -93,12 +93,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-PVE/更改 Default Domain Type 为 Passthrough.md",
-                "mode": "preview",
+                "file": "Misc/IP 分配.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "更改 Default Domain Type 为 Passthrough"
+              "title": "IP 分配"
             }
           }
         ],
@@ -230,10 +230,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10-PVE/更改 Default Domain Type 为 Passthrough.md"
+                "file": "Misc/IP 分配.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 更改 Default Domain Type 为 Passthrough"
+              "title": "Outline of IP 分配"
             }
           },
           {
@@ -267,10 +267,10 @@
   },
   "active": "2140a3e7dd05f8fb",
   "lastOpenFiles": [
+    "10-PVE/更改 Default Domain Type 为 Passthrough.md",
     "Misc/IP 分配.md",
     "Misc/HC550.md",
     "Misc/MacOS 制作 Win11 安装引导盘.md",
-    "10-PVE/更改 Default Domain Type 为 Passthrough.md",
     "10-PVE/03-Windows/AMD 核显直通 Windows.md",
     "10-PVE/02-NAS/SATA 控制器直通.md",
     "Attachments/TimeSpy-2024-12-27-125043-PT.png",
