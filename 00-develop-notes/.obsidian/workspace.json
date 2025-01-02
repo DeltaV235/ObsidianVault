@@ -93,12 +93,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/IP 分配.md",
-                "mode": "source",
+                "file": "10-PVE/PVE 换源.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "IP 分配"
+              "title": "PVE 换源"
             }
           }
         ],
@@ -230,10 +230,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misc/IP 分配.md"
+                "file": "10-PVE/PVE 换源.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of IP 分配"
+              "title": "Outline of PVE 换源"
             }
           },
           {
@@ -267,11 +267,11 @@
   },
   "active": "2140a3e7dd05f8fb",
   "lastOpenFiles": [
-    "10-PVE/更改 Default Domain Type 为 Passthrough.md",
+    "10-PVE/03-Windows/AMD 核显直通 Windows.md",
     "Misc/IP 分配.md",
+    "10-PVE/更改 Default Domain Type 为 Passthrough.md",
     "Misc/HC550.md",
     "Misc/MacOS 制作 Win11 安装引导盘.md",
-    "10-PVE/03-Windows/AMD 核显直通 Windows.md",
     "10-PVE/02-NAS/SATA 控制器直通.md",
     "Attachments/TimeSpy-2024-12-27-125043-PT.png",
     "Attachments/FireStrike-2024-12-27-132541-PT.png",

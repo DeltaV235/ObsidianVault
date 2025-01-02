@@ -8,9 +8,7 @@ tags:
     - Tutorial
 ---
 
-# PVE 换源
-
-##  关闭企业源和ceph源
+## 关闭企业源和ceph源
 
 - `/etc/apt/sources.list.d/ceph.list` 注释以下内容
 
@@ -43,4 +41,24 @@ deb http://mirrors.ustc.edu.cn/debian bookworm-updates main contrib non-free non
 
 # security updates
 deb http://security.debian.org bookworm-security main contrib
+```
+
+## 更换 CT Template(LXC) 为 tsinghua 镜像源
+
+- 备份 `/usr/share/perl5/PVE/APLInfo.pm`
+
+```bash
+cp /usr/share/perl5/PVE/APLInfo.pm /usr/share/perl5/PVE/APLInfo.pm.bak
+```
+
+- 替换 `/usr/share/perl5/PVE/APLInfo.pm` 中的 `http://download.proxmox.com` 为 `https://mirrors.tuna.tsinghua.edu.cn/proxmox`
+
+```bash
+sed -i 's|http://download.proxmox.com|https://mirrors.tuna.tsinghua.edu.cn/proxmox|g' /usr/share/perl5/PVE/APLInfo.pm
+```
+
+- 重启 pvedaemon
+
+```bash
+systemctl restart pvedaemon.service
 ```

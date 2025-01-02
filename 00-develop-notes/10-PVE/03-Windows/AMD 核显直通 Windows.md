@@ -62,7 +62,6 @@ vi /etc/default/grub
 [# PCI(e) Passthrough](https://pve.proxmox.com/wiki/PCI(e)_Passthrough#:~:text=With%20AMD%20CPUs%20IOMMU%20is%20enabled%20by%20default.%20)
 
 > With AMD CPUs IOMMU is enabled by default.
-
 > If your hardware supports IOMMU passthrough mode, enabling this mode might increase performance.
 
 根据上述文档，AMD 已经默认打开了 IOMMU，无需添加 `amd_iommu=on` 选项。添加 `iommu=pt` 选项后，核显性能可能会有所提升。[[更改 Default Domain Type 为 Passthrough]]
@@ -109,6 +108,9 @@ blacklist snd_hda_intel
 
 # block SATA controller
 blacklist ahci
+
+# block Xbox controller
+blacklist xpad
 
 options vfio_iommu_type1 allow_unsafe_interrupts=1
 ```
