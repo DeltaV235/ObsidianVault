@@ -93,12 +93,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "09-Linux/mount.md",
+                "file": "10-PVE/04-LXC/LXC 挂载宿主机 NFS.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "mount"
+              "title": "LXC 挂载宿主机 NFS"
             }
           }
         ],
@@ -230,10 +230,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09-Linux/mount.md"
+                "file": "10-PVE/04-LXC/LXC 挂载宿主机 NFS.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of mount"
+              "title": "Outline of LXC 挂载宿主机 NFS"
             }
           },
           {
@@ -267,8 +267,15 @@
   },
   "active": "2140a3e7dd05f8fb",
   "lastOpenFiles": [
-    "10-PVE/04-LXC/qBittorrent NFS 挂载持久化.md",
-    "09-Linux/mount.md",
+    "10-PVE/修改 storage.cfg 使 NFS 的挂载不影响 PVE 的启动.md",
+    "10-PVE/04-LXC/LXC 挂载宿主机 NFS.md",
+    "10-PVE/04-LXC/PVE NFS 挂载持久化.md",
+    "Misc/yt-dlp 提取音频.md",
+    "09-Linux/systemd-analyze - 查看启动所使用的时间.md",
+    "Attachments/Pasted image 20250105194639.png",
+    "09-Linux/showmount - 显示NFS服务器加载的信息.md",
+    "09-Linux/LVM.md",
+    "Attachments/Pasted image 20250105194001.png",
     "10-PVE/04-LXC/Docker 安装.md",
     "10-PVE/PVE 换源.md",
     "10-PVE/04-LXC",
@@ -289,8 +296,6 @@
     "02-Java/Core/Stream API.md",
     "Software-List/MacOS-15.md",
     "Attachments/Pasted image 20241224110136.png",
-    "Attachments/Pasted image 20241224110103.png",
-    "Attachments/Pasted image 20241224105737.png",
     "Obsidian-Related/Template/Default.md",
     "11-Migrant/欧洲那些国家对父母移民比较友好？.md",
     "11-Migrant",
@@ -300,13 +305,8 @@
     "10-PVE/01-OpenWrt/构建 Immortalwrt 镜像.md",
     "10-PVE/01-OpenWrt/安装 OpenWRT.md",
     "Obsidian-Related/Template/Snippet.md",
-    "10-PVE/从错误的直通配置中恢复 PVE 至可用状态.md",
     "10-PVE/03-Windows",
     "10-PVE/02-NAS",
-    "07-Frontend/02-CSS/使行内元素或行内块元素在父元素中垂直居中.md",
-    "07-Frontend/02-CSS/字体高度 font-size 与行高 line-height.md",
-    "Software-List/OpenWrt-Software-List.md",
-    "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md",
     "10-PVE/01-OpenWrt",
     "Attachments/Pasted image 20241128175212.png.sb-f59f5411-uH4V3E",
     "10-PVE",
