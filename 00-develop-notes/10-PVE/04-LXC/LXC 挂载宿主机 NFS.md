@@ -16,3 +16,7 @@ mp1: /mnt/nas/media,mp=/root/archive
 ```
 
 ^4f5f0d
+
+```bash
+mp0: /mnt/nas/appdata/docker,mp=/root/nas-app-data-docker
+```
