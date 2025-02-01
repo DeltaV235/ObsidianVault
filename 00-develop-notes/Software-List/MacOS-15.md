@@ -3,6 +3,7 @@
 	- mos
 	- stats
     - jordanbaird-ice
+    - JMeter
 - ClashX
 - Google Chrome
 - JetBrains ToolBox
