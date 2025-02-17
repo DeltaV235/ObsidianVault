@@ -93,12 +93,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07-Frontend/02-CSS/子元素在父元素中水平垂直居中的方法.md",
+                "file": "03-Middleware/RabbitMQ/Producer 的 Prefetch.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "子元素在父元素中水平垂直居中的方法"
+              "title": "Producer 的 Prefetch"
             }
           }
         ],
@@ -231,13 +231,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07-Frontend/02-CSS/子元素在父元素中水平垂直居中的方法.md",
+                "file": "03-Middleware/RabbitMQ/Producer 的 Prefetch.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 子元素在父元素中水平垂直居中的方法"
+              "title": "Outline of Producer 的 Prefetch"
             }
           },
           {
@@ -271,13 +271,16 @@
   },
   "active": "2140a3e7dd05f8fb",
   "lastOpenFiles": [
+    "03-Middleware/Redis.md",
+    "03-Middleware/RabbitMQ/Producer 的 Prefetch.md",
+    "03-Middleware/RabbitMQ",
+    "07-Frontend/02-CSS/子元素在父元素中水平垂直居中的方法.md",
     "10-PVE/通过 Live CD 恢复 PVE.md",
     "10-PVE/04-LXC/PVE NFS 挂载持久化.md",
     "Software-List/MacOS-15.md",
     "09-Linux/systemd-analyze - 查看启动所使用的时间.md",
     "09-Linux/showmount - 显示NFS服务器加载的信息.md",
     "10-PVE/修改 storage.cfg 使 NFS 的挂载不影响 PVE 的启动.md",
-    "07-Frontend/02-CSS/子元素在父元素中水平垂直居中的方法.md",
     "10-PVE/04-LXC/LXC 挂载宿主机 NFS.md",
     "10-PVE/04-LXC/Docker 安装.md",
     "Misc/IP 分配.md",
@@ -306,9 +309,7 @@
     "02-Java/Core/Stream API.md",
     "Attachments/Pasted image 20241224110136.png",
     "Obsidian-Related/Template/Default.md",
-    "11-Migrant/欧洲那些国家对父母移民比较友好？.md",
     "11-Migrant",
-    "Misc/All-In-One/配置.md",
     "10-PVE/03-Windows",
     "10-PVE/02-NAS",
     "10-PVE/01-OpenWrt",
@@ -316,7 +317,6 @@
     "10-PVE",
     "09-Linux",
     "07-Frontend/02-CSS",
-    "07-Frontend/03-ECMAScript",
     "Untitled.canvas",
     "未命名.canvas",
     "IDE-Guide/JetBrains/IDEA/未命名.canvas"
