@@ -107,12 +107,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Java/Spring/Spring Boot 的 AutoConfiguration 与 Spring SPI.md",
+                "file": "11-Interview/2025-3-17-TechMahindra.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Spring Boot 的 AutoConfiguration 与 Spring SPI"
+              "title": "2025-3-17-TechMahindra"
             }
           }
         ],
@@ -245,13 +245,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Java/Spring/Spring Boot 的 AutoConfiguration 与 Spring SPI.md",
+                "file": "11-Interview/2025-3-17-TechMahindra.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Spring Boot 的 AutoConfiguration 与 Spring SPI"
+              "title": "Outline of 2025-3-17-TechMahindra"
             }
           },
           {
@@ -286,9 +286,13 @@
   "active": "c9babf7fbd09b274",
   "lastOpenFiles": [
     "11-Interview/2025-3-14-极兔速运.md",
+    "11-Interview/2025-3-17-TechMahindra.md",
+    "11-Interview/2025-3-11-赢时胜-国泰君安.md",
+    "11-Interview/2025-3-13-帆立科技-上海农商银行-一面.md",
+    "11-Interview/2025-3-12-东软-中汇.md",
+    "11-Interview/2025-3-18-首聘-百度.md",
     "02-Java/Spring/Spring Boot 的 AutoConfiguration 与 Spring SPI.md",
     "02-Java/Spring",
-    "11-Interview/2025-3-14-帆立科技-上海农商银行-一面.md",
     "11-Interview/2025-3-14-帆立科技-上海农商银行-二面.md",
     "11-Interview/2025-3-13-",
     "11-Interview/2024-3-14-帆立科技-上海农商银行-二面.md",
@@ -312,12 +316,8 @@
     "10-PVE/更改 Default Domain Type 为 Passthrough.md",
     "Misc/yt-dlp 提取音频.md",
     "Attachments/Pasted image 20250105194639.png",
-    "09-Linux/LVM.md",
     "Attachments/Pasted image 20250105194001.png",
-    "10-PVE/PVE 换源.md",
     "10-PVE/04-LXC",
-    "10-PVE/03-Windows/AMD 核显直通 Windows.md",
-    "Misc/HC550.md",
     "Attachments/TimeSpy-2024-12-27-125043-PT.png",
     "Attachments/FireStrike-2024-12-27-132541-PT.png",
     "Attachments/TimeSpy-2024-12-27-122518-Translate.png",
