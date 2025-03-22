@@ -4,6 +4,7 @@
 	- stats
     - jordanbaird-ice
     - JMeter
+    - bruno
 - ClashX
 - Google Chrome
 - JetBrains ToolBox
