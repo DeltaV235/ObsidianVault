@@ -107,12 +107,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software-List/MacOS-15.md",
-                "mode": "source",
+                "file": "11-Interview/2025-3-13-帆立科技-上海农商银行-一面.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "MacOS-15"
+              "title": "2025-3-13-帆立科技-上海农商银行-一面"
             }
           }
         ],
@@ -148,7 +148,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "win11",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -245,13 +245,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software-List/MacOS-15.md",
+                "file": "11-Interview/2025-3-13-帆立科技-上海农商银行-一面.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MacOS-15"
+              "title": "Outline of 2025-3-13-帆立科技-上海农商银行-一面"
             }
           },
           {
@@ -285,6 +285,9 @@
   },
   "active": "c9babf7fbd09b274",
   "lastOpenFiles": [
+    "Attachments/截屏2025-03-13 20.06.19.png",
+    "Misc/MacOS 制作 Win11 安装引导盘.md",
+    "Software-List/MacOS-15.md",
     "11-Interview/2025-3-20-首聘-百度-二面.md",
     "11-Interview/2025-3-18-首聘-百度-一面.md",
     "11-Interview/2025-3-17-TechMahindra.md",
@@ -304,7 +307,6 @@
     "07-Frontend/02-CSS/子元素在父元素中水平垂直居中的方法.md",
     "10-PVE/通过 Live CD 恢复 PVE.md",
     "10-PVE/04-LXC/PVE NFS 挂载持久化.md",
-    "Software-List/MacOS-15.md",
     "09-Linux/systemd-analyze - 查看启动所使用的时间.md",
     "09-Linux/showmount - 显示NFS服务器加载的信息.md",
     "10-PVE/修改 storage.cfg 使 NFS 的挂载不影响 PVE 的启动.md",
@@ -313,8 +315,6 @@
     "Misc/IP 分配.md",
     "10-PVE/04-LXC/Proxmox VE 非特权 LXC 容器挂载 NFS.md",
     "10-PVE/ZFS Dataset NFS 挂载问题.md",
-    "10-PVE/从错误的直通配置中恢复 PVE 至可用状态.md",
-    "10-PVE/更改 Default Domain Type 为 Passthrough.md",
     "Attachments/Pasted image 20250105194639.png",
     "Attachments/Pasted image 20250105194001.png",
     "10-PVE/04-LXC",
