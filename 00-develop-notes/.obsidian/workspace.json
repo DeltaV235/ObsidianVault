@@ -107,12 +107,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11-Interview/2025-3-13-帆立科技-上海农商银行-一面.md",
+                "file": "Misc/IP 分配.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-3-13-帆立科技-上海农商银行-一面"
+              "title": "IP 分配"
             }
           }
         ],
@@ -245,13 +245,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11-Interview/2025-3-13-帆立科技-上海农商银行-一面.md",
+                "file": "Misc/IP 分配.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-3-13-帆立科技-上海农商银行-一面"
+              "title": "Outline of IP 分配"
             }
           },
           {
@@ -285,6 +285,7 @@
   },
   "active": "c9babf7fbd09b274",
   "lastOpenFiles": [
+    "11-Interview/2025-3-13-帆立科技-上海农商银行-一面.md",
     "Attachments/截屏2025-03-13 20.06.19.png",
     "Misc/MacOS 制作 Win11 安装引导盘.md",
     "Software-List/MacOS-15.md",
@@ -293,7 +294,6 @@
     "11-Interview/2025-3-17-TechMahindra.md",
     "11-Interview/2025-3-14-极兔速运.md",
     "11-Interview/2025-3-11-赢时胜-国泰君安.md",
-    "11-Interview/2025-3-13-帆立科技-上海农商银行-一面.md",
     "11-Interview/2025-3-12-东软-中汇.md",
     "02-Java/Spring/Spring Boot 的 AutoConfiguration 与 Spring SPI.md",
     "02-Java/Spring",
@@ -325,7 +325,6 @@
     "Attachments/屏幕截图 2024-12-27 133324.png",
     "Attachments/屏幕截图 2024-12-27 124113.png",
     "Attachments/Pasted image 20241227153507.png",
-    "Attachments/Pasted image 20241224110136.png",
     "11-Migrant",
     "10-PVE/03-Windows",
     "10-PVE/02-NAS",
