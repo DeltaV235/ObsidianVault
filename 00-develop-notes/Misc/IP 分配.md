@@ -33,6 +33,10 @@ tags:
 - 192.168.0.21: OpenWrt
 - 192.168.0.22: TrueNAS
 - 192.168.0.23: Windows11-PVE
+- 192.168.0.24: Windows10-PVE
+- 192.168.0.25: Rocky-Linux-01
+- 192.168.0.26: Rocky-Linux-02
+- 192.168.0.27: Rocky-Linux-03
 
 ## Main Router DHCP Range: 192.168.0.80 - 192.168.0.159
 
