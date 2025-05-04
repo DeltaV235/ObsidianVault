@@ -119,12 +119,14 @@
             "id": "f6c200647596d280",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.10"
+                "file": "10-PVE/05-VPN/Zerotier 搭建 VPN.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "icon": "lucide-file",
+              "title": "Zerotier 搭建 VPN"
             }
           }
         ],
@@ -257,12 +259,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "10-PVE/05-VPN/Zerotier 搭建 VPN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Zerotier 搭建 VPN"
             }
           },
           {
@@ -296,6 +299,10 @@
   },
   "active": "f6c200647596d280",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20250504224456.png",
+    "Attachments/Pasted image 20250504224041.png",
+    "10-PVE/05-VPN/Zerotier 搭建 VPN.md",
+    "10-PVE/05-VPN",
     "11-Interview/2025-3-13-帆立科技-上海农商银行-一面.md",
     "Attachments/截屏2025-03-13 20.06.19.png",
     "Misc/MacOS 制作 Win11 安装引导盘.md",
@@ -325,7 +332,6 @@
     "10-PVE/04-LXC/Docker 安装.md",
     "Misc/IP 分配.md",
     "10-PVE/04-LXC/Proxmox VE 非特权 LXC 容器挂载 NFS.md",
-    "10-PVE/ZFS Dataset NFS 挂载问题.md",
     "Attachments/Pasted image 20250105194639.png",
     "Attachments/Pasted image 20250105194001.png",
     "10-PVE/04-LXC",
@@ -335,12 +341,10 @@
     "Attachments/FireStrike-2024-12-27-134459-Translate.png",
     "Attachments/屏幕截图 2024-12-27 133324.png",
     "Attachments/屏幕截图 2024-12-27 124113.png",
-    "Attachments/Pasted image 20241227153507.png",
     "11-Migrant",
     "10-PVE/03-Windows",
     "10-PVE/02-NAS",
     "10-PVE/01-OpenWrt",
-    "Attachments/Pasted image 20241128175212.png.sb-f59f5411-uH4V3E",
     "Untitled.canvas",
     "未命名.canvas",
     "IDE-Guide/JetBrains/IDEA/未命名.canvas"
