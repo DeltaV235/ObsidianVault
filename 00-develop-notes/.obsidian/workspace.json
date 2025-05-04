@@ -114,9 +114,21 @@
               "icon": "lucide-file",
               "title": "IP 分配"
             }
+          },
+          {
+            "id": "f6c200647596d280",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -245,13 +257,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misc/IP 分配.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of IP 分配"
+              "title": "Outline"
             }
           },
           {
@@ -283,7 +294,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9babf7fbd09b274",
+  "active": "f6c200647596d280",
   "lastOpenFiles": [
     "11-Interview/2025-3-13-帆立科技-上海农商银行-一面.md",
     "Attachments/截屏2025-03-13 20.06.19.png",
