@@ -121,12 +121,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-PVE/05-VPN/Zerotier 搭建 VPN.md",
+                "file": "10-PVE/Grafana + Prometheus 实现 PVE Host 和 Guest 的监控.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Zerotier 搭建 VPN"
+              "title": "Grafana + Prometheus 实现 PVE Host 和 Guest 的监控"
             }
           }
         ],
@@ -259,13 +259,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10-PVE/05-VPN/Zerotier 搭建 VPN.md",
+                "file": "10-PVE/Grafana + Prometheus 实现 PVE Host 和 Guest 的监控.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Zerotier 搭建 VPN"
+              "title": "Outline of Grafana + Prometheus 实现 PVE Host 和 Guest 的监控"
             }
           },
           {
@@ -279,7 +279,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -297,11 +297,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f6c200647596d280",
+  "active": "e605d4e43f933a56",
   "lastOpenFiles": [
+    "03-Middleware/基于 Docker Compose 的 Prometheus 和 Grafana 的安装和配置.md",
+    "10-PVE/Grafana + Prometheus 实现 PVE Host 和 Guest 的监控.md",
+    "03-Middleware/Redis.md",
+    "Attachments/Pasted image 20250518105118.png",
+    "Attachments/Pasted image 20250518104824.png",
+    "Attachments/Pasted image 20250518104505.png",
+    "Attachments/Pasted image 20250518104314.png",
+    "Misc/IP 分配.md",
+    "03-Middleware/Kubernetes/K8S 集群搭建.md",
+    "10-PVE/05-VPN/Zerotier 搭建 VPN.md",
+    "03-Middleware/Kubernetes",
     "Attachments/Pasted image 20250504224456.png",
     "Attachments/Pasted image 20250504224041.png",
-    "10-PVE/05-VPN/Zerotier 搭建 VPN.md",
     "10-PVE/05-VPN",
     "11-Interview/2025-3-13-帆立科技-上海农商银行-一面.md",
     "Attachments/截屏2025-03-13 20.06.19.png",
@@ -320,7 +330,6 @@
     "11-Interview/2024-3-14-帆立科技-上海农商银行-二面.md",
     "03-Middleware/RabbitMQ/Producer 的 Prefetch.md",
     "11-Interview",
-    "03-Middleware/Redis.md",
     "03-Middleware/RabbitMQ",
     "07-Frontend/02-CSS/子元素在父元素中水平垂直居中的方法.md",
     "10-PVE/通过 Live CD 恢复 PVE.md",
@@ -329,22 +338,13 @@
     "09-Linux/showmount - 显示NFS服务器加载的信息.md",
     "10-PVE/修改 storage.cfg 使 NFS 的挂载不影响 PVE 的启动.md",
     "10-PVE/04-LXC/LXC 挂载宿主机 NFS.md",
-    "10-PVE/04-LXC/Docker 安装.md",
-    "Misc/IP 分配.md",
-    "10-PVE/04-LXC/Proxmox VE 非特权 LXC 容器挂载 NFS.md",
     "Attachments/Pasted image 20250105194639.png",
     "Attachments/Pasted image 20250105194001.png",
     "10-PVE/04-LXC",
     "Attachments/TimeSpy-2024-12-27-125043-PT.png",
-    "Attachments/FireStrike-2024-12-27-132541-PT.png",
-    "Attachments/TimeSpy-2024-12-27-122518-Translate.png",
-    "Attachments/FireStrike-2024-12-27-134459-Translate.png",
-    "Attachments/屏幕截图 2024-12-27 133324.png",
-    "Attachments/屏幕截图 2024-12-27 124113.png",
     "11-Migrant",
     "10-PVE/03-Windows",
     "10-PVE/02-NAS",
-    "10-PVE/01-OpenWrt",
     "Untitled.canvas",
     "未命名.canvas",
     "IDE-Guide/JetBrains/IDEA/未命名.canvas"
