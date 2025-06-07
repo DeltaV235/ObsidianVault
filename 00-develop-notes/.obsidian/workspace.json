@@ -121,12 +121,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-PVE/Grafana + Prometheus 实现 PVE Host 和 Guest 的监控.md",
+                "file": "Misc/IP 分配.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Grafana + Prometheus 实现 PVE Host 和 Guest 的监控"
+              "title": "IP 分配"
             }
           }
         ],
@@ -297,10 +297,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e605d4e43f933a56",
+  "active": "f6c200647596d280",
   "lastOpenFiles": [
-    "03-Middleware/基于 Docker Compose 的 Prometheus 和 Grafana 的安装和配置.md",
     "10-PVE/Grafana + Prometheus 实现 PVE Host 和 Guest 的监控.md",
+    "03-Middleware/基于 Docker Compose 的 Prometheus 和 Grafana 的安装和配置.md",
     "03-Middleware/Redis.md",
     "Attachments/Pasted image 20250518105118.png",
     "Attachments/Pasted image 20250518104824.png",
