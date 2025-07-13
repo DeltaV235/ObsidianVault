@@ -121,12 +121,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Java/Gradle/Gradle 基础.md",
+                "file": "Misc/Home Server IP Service Map.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Gradle 基础"
+              "title": "Home Server IP Service Map"
             }
           }
         ],
@@ -299,9 +299,10 @@
   },
   "active": "f6c200647596d280",
   "lastOpenFiles": [
+    "02-Java/Gradle/Gradle 基础.md",
+    "Misc/Home Server IP Service Map.md",
     "04-Network/网络拓扑.md",
     "02-Java/Core/Stream API.md",
-    "02-Java/Gradle/Gradle 基础.md",
     "02-Java/Gradle",
     "02-Java/Design-Pattern/Strategy Pattern.md",
     "Misc/IP 分配.md",
@@ -338,7 +339,6 @@
     "03-Middleware/RabbitMQ",
     "07-Frontend/02-CSS/子元素在父元素中水平垂直居中的方法.md",
     "10-PVE/通过 Live CD 恢复 PVE.md",
-    "10-PVE/04-LXC/PVE NFS 挂载持久化.md",
     "Attachments/Pasted image 20250105194639.png",
     "Attachments/Pasted image 20250105194001.png",
     "10-PVE/04-LXC",
