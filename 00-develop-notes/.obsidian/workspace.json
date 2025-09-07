@@ -133,12 +133,13 @@
             "id": "58a9fd52719cda67",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "diff-view",
               "state": {
-                "currentVersion": "1.9.12"
+                "file": "00-develop-notes/Misc/IP 分配.md",
+                "staged": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.12"
+              "icon": "git-pull-request",
+              "title": "Diff View (IP 分配)"
             }
           }
         ],
@@ -312,6 +313,7 @@
   },
   "active": "58a9fd52719cda67",
   "lastOpenFiles": [
+    "Misc/IP 分配.md",
     "Misc/Home Server IP Service Map.md",
     "11-Interview/2025-4-10-睿服科技-浦发银行信用卡.md",
     "02-Java/Gradle/Gradle 基础.md",
@@ -319,7 +321,6 @@
     "02-Java/Core/Stream API.md",
     "02-Java/Gradle",
     "02-Java/Design-Pattern/Strategy Pattern.md",
-    "Misc/IP 分配.md",
     "10-PVE/Grafana + Prometheus 实现 PVE Host 和 Guest 的监控.md",
     "03-Middleware/基于 Docker Compose 的 Prometheus 和 Grafana 的安装和配置.md",
     "03-Middleware/Redis.md",

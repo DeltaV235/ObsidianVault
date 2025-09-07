@@ -41,3 +41,5 @@ tags:
 ## Main Router DHCP Range: 192.168.0.80 - 192.168.0.159
 
 ## OpenWrt DHCP Range: 192.168.0.160 - 192.168.0.239
+
+## ZeroTier Controller UI (Internal Only): http://192.168.192.1:4000
