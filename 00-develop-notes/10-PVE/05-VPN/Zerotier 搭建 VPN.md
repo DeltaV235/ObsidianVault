@@ -119,9 +119,10 @@ sudo zerotier-idtool genmoon moon.json
 sudo cp /var/lib/zerotier-one/0000000000000000.moon /var/lib/zerotier-one/moons.d/
 ```
 
-### 重启 ZeroTier 服务
+### 重启 ZeroTier 服务并设置开机启动
 
 ```bash
+sudo systemctl enable zerotier-one
 sudo systemctl restart zerotier-one
 ```
 

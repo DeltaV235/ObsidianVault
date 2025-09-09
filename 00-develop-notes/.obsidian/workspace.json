@@ -133,13 +133,14 @@
             "id": "58a9fd52719cda67",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "00-develop-notes/Misc/IP 分配.md",
-                "staged": false
+                "file": "10-PVE/05-VPN/Zerotier 搭建 VPN.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (IP 分配)"
+              "icon": "lucide-file",
+              "title": "Zerotier 搭建 VPN"
             }
           }
         ],

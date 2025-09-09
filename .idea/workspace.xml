@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cc5b258-e6d7-416c-a234-e170105951e8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/00-develop-notes/.obsidian/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/00-develop-notes/.obsidian/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-develop-notes/.obsidian/appearance.json" beforeDir="false" afterPath="$PROJECT_DIR$/00-develop-notes/.obsidian/appearance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-develop-notes/.obsidian/community-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/00-develop-notes/.obsidian/community-plugins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-develop-notes/.obsidian/core-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/00-develop-notes/.obsidian/core-plugins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-develop-notes/.obsidian/plugins/obsidian-excalidraw-plugin/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/00-develop-notes/.obsidian/plugins/obsidian-excalidraw-plugin/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-develop-notes/.obsidian/types.json" beforeDir="false" afterPath="$PROJECT_DIR$/00-develop-notes/.obsidian/types.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-develop-notes/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/00-develop-notes/.obsidian/workspace.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="be324a271c4fbf81aea5e07412f4d6a36c9a3f2e" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="31SzzvfOTknFwkVI74w5mWmafHS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu-24.04/home/deltav/developer/Initializer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.19416.19" />
+        <option value="bundled-python-sdk-337b0a7a993a-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.19416.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cc5b258-e6d7-416c-a234-e170105951e8" name="Changes" comment="" />
+      <created>1755532530406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755532530406</updated>
+      <workItem from="1755534293859" duration="396000" />
+      <workItem from="1755785862513" duration="1287000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
