@@ -5,6 +5,7 @@
     - jordanbaird-ice
     - JMeter
     - bruno
+    - ghostty
 - ClashX
 - Google Chrome
 - JetBrains ToolBox

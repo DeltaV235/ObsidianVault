@@ -135,11 +135,20 @@
             "state": {
               "type": "diff-view",
               "state": {
+<<<<<<< HEAD
                 "file": "00-develop-notes/.obsidian/workspace.json",
                 "staged": false
               },
               "icon": "git-pull-request",
               "title": "Diff View (workspace.json)"
+=======
+                "file": "Software-List/MacOS-15.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "MacOS-15"
+>>>>>>> d48b9e3 (docs(obsidian-vault-backup): 2025-10-18 23:32:55)
             }
           }
         ],
@@ -313,7 +322,10 @@
   },
   "active": "58a9fd52719cda67",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Software-List/MacOS-15.md",
+=======
+>>>>>>> d48b9e3 (docs(obsidian-vault-backup): 2025-10-18 23:32:55)
     "Misc/IP 分配.md",
     "Misc/Keyboard.md",
     "Misc/Home Server IP Service Map.md",
