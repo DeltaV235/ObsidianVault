@@ -133,14 +133,13 @@
             "id": "58a9fd52719cda67",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "10-PVE/05-VPN/Zerotier 搭建 VPN.md",
-                "mode": "source",
-                "source": true
+                "file": "00-develop-notes/.obsidian/workspace.json",
+                "staged": false
               },
-              "icon": "lucide-file",
-              "title": "Zerotier 搭建 VPN"
+              "icon": "git-pull-request",
+              "title": "Diff View (workspace.json)"
             }
           }
         ],
@@ -314,7 +313,9 @@
   },
   "active": "58a9fd52719cda67",
   "lastOpenFiles": [
+    "Software-List/MacOS-15.md",
     "Misc/IP 分配.md",
+    "Misc/Keyboard.md",
     "Misc/Home Server IP Service Map.md",
     "11-Interview/2025-4-10-睿服科技-浦发银行信用卡.md",
     "02-Java/Gradle/Gradle 基础.md",
@@ -338,7 +339,6 @@
     "11-Interview/2025-3-13-帆立科技-上海农商银行-一面.md",
     "Attachments/截屏2025-03-13 20.06.19.png",
     "Misc/MacOS 制作 Win11 安装引导盘.md",
-    "Software-List/MacOS-15.md",
     "11-Interview/2025-3-20-首聘-百度-二面.md",
     "11-Interview/2025-3-18-首聘-百度-一面.md",
     "11-Interview/2025-3-17-TechMahindra.md",
@@ -353,7 +353,6 @@
     "03-Middleware/RabbitMQ/Producer 的 Prefetch.md",
     "11-Interview",
     "03-Middleware/RabbitMQ",
-    "07-Frontend/02-CSS/子元素在父元素中水平垂直居中的方法.md",
     "Attachments/Pasted image 20250105194639.png",
     "Attachments/Pasted image 20250105194001.png",
     "10-PVE/04-LXC",
