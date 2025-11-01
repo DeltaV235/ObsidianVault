@@ -1,172 +1,39 @@
 {
   "main": {
-    "id": "3f52c4b22cd6c5dc",
+    "id": "d5c6994e4e219da6",
     "type": "split",
     "children": [
       {
-        "id": "475561ba070d4635",
+        "id": "5015a616c993d967",
         "type": "tabs",
         "children": [
           {
-            "id": "639336f6e51f6875",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-Java/Core/Stream API.md",
-                "mode": "preview",
-                "source": true
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Stream API"
-            }
-          },
-          {
-            "id": "7cd9ed9871615339",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Network/网络拓扑.md",
-                "mode": "preview",
-                "source": true
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "网络拓扑"
-            }
-          },
-          {
-            "id": "59caa699eaa9e2a5",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10-PVE/01-OpenWrt/OpenWrt 配置.md",
-                "mode": "preview",
-                "source": true
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "OpenWrt 配置"
-            }
-          },
-          {
-            "id": "4f140ff18e113b01",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Misc/IP 分配.md",
-                "mode": "preview",
-                "source": true
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "IP 分配"
-            }
-          },
-          {
-            "id": "fa8c7d45a8e4311f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software-List/MacOS-15.md",
-                "mode": "source",
-                "source": true
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "MacOS-15"
-            }
-          },
-          {
-            "id": "2140a3e7dd05f8fb",
+            "id": "b0e8f5d6cad6c73d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "03-Middleware/RabbitMQ/Producer 的 Prefetch.md",
-                "mode": "source",
-                "source": true
+                "currentVersion": "1.9.14"
               },
-              "icon": "lucide-file",
-              "title": "Producer 的 Prefetch"
-            }
-          },
-          {
-            "id": "c9babf7fbd09b274",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Misc/IP 分配.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "IP 分配"
-            }
-          },
-          {
-            "id": "f6c200647596d280",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11-Interview/2025-4-10-睿服科技-浦发银行信用卡.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2025-4-10-睿服科技-浦发银行信用卡"
-            }
-          },
-          {
-            "id": "58a9fd52719cda67",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-<<<<<<< HEAD
-                "file": "00-develop-notes/.obsidian/workspace.json",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (workspace.json)"
-=======
-                "file": "Software-List/MacOS-15.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "MacOS-15"
->>>>>>> d48b9e3 (docs(obsidian-vault-backup): 2025-10-18 23:32:55)
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1cd6853b84c479b5",
+    "id": "cc9b3a28f3ce730c",
     "type": "split",
     "children": [
       {
-        "id": "6a5aa2a4187f331b",
+        "id": "a16167c42aaa0329",
         "type": "tabs",
         "children": [
           {
-            "id": "e8b04d0e5f55f45a",
+            "id": "c24f7441eb01c8ff",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -179,12 +46,12 @@
             }
           },
           {
-            "id": "de7b4af737834394",
+            "id": "609e968da109d1fa",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "win11",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,7 +63,7 @@
             }
           },
           {
-            "id": "ab7d281295c509c1",
+            "id": "c8c28d031220e25b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -204,38 +71,27 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "a4bb76cb45a512b9",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 392.5
+    "width": 300
   },
   "right": {
-    "id": "3170bf37929978fd",
+    "id": "f2f23186987d174a",
     "type": "split",
     "children": [
       {
-        "id": "29dd8be0752e3d8b",
+        "id": "b268edd0a645767d",
         "type": "tabs",
         "children": [
           {
-            "id": "7fb8be2645789549",
+            "id": "777f7613d62ff2e1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-PVE/03-Windows/AMD 核显直通 Windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,134 +101,71 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for AMD 核显直通 Windows"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "e473e8e9005474f0",
+            "id": "1327119ace3916f2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10-PVE/03-Windows/AMD 核显直通 Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from AMD 核显直通 Windows"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "5768f77f80b08f45",
+            "id": "926d2feba2a58a17",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "a58f2acf49555f4e",
+            "id": "85f778fee8c37538",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "10-PVE/Grafana + Prometheus 实现 PVE Host 和 Guest 的监控.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Grafana + Prometheus 实现 PVE Host 和 Guest 的监控"
-            }
-          },
-          {
-            "id": "e605d4e43f933a56",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "58a9fd52719cda67",
-  "lastOpenFiles": [
-<<<<<<< HEAD
-    "Software-List/MacOS-15.md",
-=======
->>>>>>> d48b9e3 (docs(obsidian-vault-backup): 2025-10-18 23:32:55)
-    "Misc/IP 分配.md",
-    "Misc/Keyboard.md",
-    "Misc/Home Server IP Service Map.md",
-    "11-Interview/2025-4-10-睿服科技-浦发银行信用卡.md",
-    "02-Java/Gradle/Gradle 基础.md",
-    "04-Network/网络拓扑.md",
-    "02-Java/Core/Stream API.md",
-    "02-Java/Gradle",
-    "02-Java/Design-Pattern/Strategy Pattern.md",
-    "10-PVE/Grafana + Prometheus 实现 PVE Host 和 Guest 的监控.md",
-    "03-Middleware/基于 Docker Compose 的 Prometheus 和 Grafana 的安装和配置.md",
-    "03-Middleware/Redis.md",
-    "Attachments/Pasted image 20250518105118.png",
-    "Attachments/Pasted image 20250518104824.png",
-    "Attachments/Pasted image 20250518104505.png",
-    "Attachments/Pasted image 20250518104314.png",
-    "03-Middleware/Kubernetes/K8S 集群搭建.md",
-    "10-PVE/05-VPN/Zerotier 搭建 VPN.md",
-    "03-Middleware/Kubernetes",
-    "Attachments/Pasted image 20250504224456.png",
-    "Attachments/Pasted image 20250504224041.png",
-    "10-PVE/05-VPN",
-    "11-Interview/2025-3-13-帆立科技-上海农商银行-一面.md",
-    "Attachments/截屏2025-03-13 20.06.19.png",
-    "Misc/MacOS 制作 Win11 安装引导盘.md",
-    "11-Interview/2025-3-20-首聘-百度-二面.md",
-    "11-Interview/2025-3-18-首聘-百度-一面.md",
-    "11-Interview/2025-3-17-TechMahindra.md",
-    "11-Interview/2025-3-14-极兔速运.md",
-    "11-Interview/2025-3-11-赢时胜-国泰君安.md",
-    "11-Interview/2025-3-12-东软-中汇.md",
-    "02-Java/Spring/Spring Boot 的 AutoConfiguration 与 Spring SPI.md",
-    "02-Java/Spring",
-    "11-Interview/2025-3-14-帆立科技-上海农商银行-二面.md",
-    "11-Interview/2025-3-13-",
-    "11-Interview/2024-3-14-帆立科技-上海农商银行-二面.md",
-    "03-Middleware/RabbitMQ/Producer 的 Prefetch.md",
-    "11-Interview",
-    "03-Middleware/RabbitMQ",
-    "Attachments/Pasted image 20250105194639.png",
-    "Attachments/Pasted image 20250105194001.png",
-    "10-PVE/04-LXC",
-    "Attachments/TimeSpy-2024-12-27-125043-PT.png",
-    "11-Migrant",
-    "10-PVE/03-Windows",
-    "Untitled.canvas",
-    "未命名.canvas",
-    "IDE-Guide/JetBrains/IDEA/未命名.canvas"
-  ]
+  "active": "b0e8f5d6cad6c73d",
+  "lastOpenFiles": []
 }
