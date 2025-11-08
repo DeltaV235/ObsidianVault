@@ -11,12 +11,14 @@
             "id": "b0e8f5d6cad6c73d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "Software-List/MacOS-15.md",
+                "mode": "preview",
+                "source": true
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
+              "icon": "lucide-file",
+              "title": "MacOS-15"
             }
           }
         ]
@@ -167,5 +169,7 @@
     }
   },
   "active": "b0e8f5d6cad6c73d",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Software-List/OpenWrt-Software-List.md"
+  ]
 }
