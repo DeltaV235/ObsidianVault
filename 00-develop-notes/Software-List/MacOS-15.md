@@ -6,6 +6,7 @@
     - JMeter
     - bruno
     - ghostty
+    - codex
 - ClashX
 - Google Chrome
 - JetBrains ToolBox
