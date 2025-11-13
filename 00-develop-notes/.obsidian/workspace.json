@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software-List/MacOS-15.md",
-                "mode": "source",
+                "file": "10-PVE/在 Alpine Linux 下配置 SSH Server.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "MacOS-15"
+              "title": "在 Alpine Linux 下配置 SSH Server"
             }
           }
         ]
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "10-PVE/在 Alpine Linux 下配置 SSH Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 在 Alpine Linux 下配置 SSH Server"
             }
           },
           {
@@ -147,13 +148,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "b934e4000aec97b8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,6 +181,13 @@
   },
   "active": "b0e8f5d6cad6c73d",
   "lastOpenFiles": [
+    "10-PVE/从错误的直通配置中恢复 PVE 至可用状态.md",
+    "10-PVE/PVE 换源.md",
+    "10-PVE/修改 storage.cfg 使 NFS 的挂载不影响 PVE 的启动.md",
+    "10-PVE/通过 Live CD 恢复 PVE.md",
+    "10-PVE/在 Alpine Linux 下配置 SSH Server.md",
+    "10-PVE/PVE Console 无法输入输出的解决方案.md",
+    "Software-List/MacOS-15.md",
     "Software-List/OpenWrt-Software-List.md"
   ]
 }
