@@ -30,6 +30,7 @@
 - Tencent Meeting(Optional)
 - Logitech G Hub(Optional)
 - SpeedTest(Optional)
+- IINA
 
 # CLI
 - Homebrew

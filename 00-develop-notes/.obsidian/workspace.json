@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-PVE/在 Alpine Linux 下配置 SSH Server.md",
-                "mode": "preview",
+                "file": "Misc/Home Server IP Service Map.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "在 Alpine Linux 下配置 SSH Server"
+              "title": "Home Server IP Service Map"
+            }
+          },
+          {
+            "id": "c52f1345268935e3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,8 +107,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-PVE/在 Alpine Linux 下配置 SSH Server.md",
-                "collapseAll": false,
+                "file": "Misc/Home Server IP Service Map.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -104,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 在 Alpine Linux 下配置 SSH Server"
+              "title": "Backlinks for Home Server IP Service Map"
             }
           },
           {
@@ -148,19 +161,9 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
-          },
-          {
-            "id": "b934e4000aec97b8",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -179,15 +182,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b0e8f5d6cad6c73d",
+  "active": "c52f1345268935e3",
   "lastOpenFiles": [
-    "10-PVE/从错误的直通配置中恢复 PVE 至可用状态.md",
-    "10-PVE/PVE 换源.md",
-    "10-PVE/修改 storage.cfg 使 NFS 的挂载不影响 PVE 的启动.md",
-    "10-PVE/通过 Live CD 恢复 PVE.md",
+    "Misc/跨平台 .local 域名解析差异与解决方案.md",
+    "Misc/Home Server IP Service Map.md",
+    "Misc/yt-dlp 提取音频.md",
+    "Misc/MacOS 制作 Win11 安装引导盘.md",
+    "Misc/Keyboard.md",
+    "10-PVE/02-NAS/ZFS Dataset NFS 挂载问题.md",
+    "Misc/IP 分配.md",
+    "Software-List/MacOS-15.md",
     "10-PVE/在 Alpine Linux 下配置 SSH Server.md",
     "10-PVE/PVE Console 无法输入输出的解决方案.md",
-    "Software-List/MacOS-15.md",
     "Software-List/OpenWrt-Software-List.md"
   ]
 }
