@@ -25,12 +25,14 @@
             "id": "c52f1345268935e3",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.3"
+                "file": "Misc/Rime 自定义快捷键.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
+              "icon": "lucide-file",
+              "title": "Rime 自定义快捷键"
             }
           }
         ],
@@ -154,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Misc/Rime 自定义快捷键.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Rime 自定义快捷键"
             }
           }
         ],
@@ -184,6 +187,7 @@
   },
   "active": "c52f1345268935e3",
   "lastOpenFiles": [
+    "Misc/Rime 自定义快捷键.md",
     "Misc/跨平台 .local 域名解析差异与解决方案.md",
     "Misc/Home Server IP Service Map.md",
     "Misc/yt-dlp 提取音频.md",
