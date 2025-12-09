@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Rime 自定义快捷键"
             }
+          },
+          {
+            "id": "5f8329c6dc5d80ae",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -156,13 +168,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misc/Rime 自定义快捷键.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Rime 自定义快捷键"
+              "title": "Outline"
             }
           }
         ],
@@ -185,7 +196,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c52f1345268935e3",
+  "active": "5f8329c6dc5d80ae",
   "lastOpenFiles": [
     "Misc/Rime 自定义快捷键.md",
     "Misc/跨平台 .local 域名解析差异与解决方案.md",
