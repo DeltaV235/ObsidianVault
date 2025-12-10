@@ -39,12 +39,14 @@
             "id": "5f8329c6dc5d80ae",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "Misc/IP 分配.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "icon": "lucide-file",
+              "title": "IP 分配"
             }
           }
         ],
@@ -168,12 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Misc/IP 分配.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of IP 分配"
             }
           }
         ],
