@@ -53,12 +53,14 @@
             "id": "035efe4ccafec8b2",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "Misc/ML307C/ML307 模组有网卡但无串口（ttyUSB）的解决方案.md",
+                "mode": "preview",
+                "source": true
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "icon": "lucide-file",
+              "title": "ML307 模组有网卡但无串口（ttyUSB）的解决方案"
             }
           }
         ],
@@ -182,12 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Misc/ML307C/ML307 模组有网卡但无串口（ttyUSB）的解决方案.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of ML307 模组有网卡但无串口（ttyUSB）的解决方案"
             }
           },
           {
@@ -201,7 +204,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -222,14 +225,18 @@
   },
   "active": "035efe4ccafec8b2",
   "lastOpenFiles": [
+    "Misc/ML307C/ML307 RNDIS 模式网卡 DHCP 配置笔记.md",
+    "Misc/ML307C/ML307 模组有网卡但无串口（ttyUSB）的解决方案.md",
+    "Misc/ML307C/ML307 系列模组关闭指示灯操作指南.md",
+    "Misc/ML307C",
+    "Misc/Raspberry Pi 3B Windows 11 Thin Client 部署指南.md",
+    "10-PVE/从错误的直通配置中恢复 PVE 至可用状态.md",
     "Misc/Rime 自定义快捷键.md",
     "conflict-files-obsidian-git.md",
     "Misc/跨平台 .local 域名解析差异与解决方案.md",
     "10-PVE/02-NAS/ZFS Dataset NFS 挂载问题.md",
     "10-PVE/ZFS Dataset NFS 挂载问题.md",
-    "Misc/Raspberry Pi 3B Windows 11 Thin Client 部署指南.md",
     "09-Linux/LVM.md",
-    "10-PVE/从错误的直通配置中恢复 PVE 至可用状态.md",
     "10-PVE/PVE 换源.md",
     "10-PVE/修改 storage.cfg 使 NFS 的挂载不影响 PVE 的启动.md",
     "10-PVE/通过 Live CD 恢复 PVE.md",

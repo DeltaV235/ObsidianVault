@@ -202,26 +202,28 @@ sudo startx /usr/bin/xfreerdp \
   /v:<Windows主机IP> \
   /u:"$USERNAME" \
   /p:"$PASSWORD" \
-  /size:1080p \
+  /network:wan \
   /cert:ignore \
   /f \
-  /bpp:32 \
+  /bpp:16 \
   /gdi:hw \
-  /network:broadband \
   +auto-reconnect \
   /auto-reconnect-max-retries:20 \
   -menu-anims \
+  -wallpaper \
+  -themes \
+  -aero \
+  -window-drag \
   +fonts \
   +clipboard \
   +glyph-cache \
   +bitmap-cache \
+  +offscreen-cache \
   +async-input \
-  /compression \
-#  /sound:sys:alsa \
-  /smart-sizing \
-  /gfx:AVC444 \
+  +async-update \
   /multitransport \
-#  /sec:nla \
+  /audio-mode:2 \
+  /compression-level:2 \
   -- :0 vt7
 ```
 
@@ -239,25 +241,28 @@ chmod +x start_rdp.sh
 | 参数 | 作用 | 说明 |
 |:-----|:-----|:-----|
 | `/v:<Windows主机IP>` | 目标主机地址 | Windows 11 主机的 IP 地址（如 192.168.x.x） |
-| `/size:1080p` | 分辨率设置 | 指定 1920x1080 分辨率 |
+| `/network:wan` | 广域网模式 | **关键优化参数**，针对高延迟环境优化，禁用大部分特效，详见下方说明 |
+| `/cert:ignore` | 忽略证书验证 | 跳过 SSL 证书验证（内网环境） |
 | `/f` | 全屏模式 | **Fullscreen**，让远程桌面铺满整个显示器，这是"瘦客户端"的核心参数 |
-| `/bpp:32` | 32位色深 | 真彩色显示，画质最佳 |
+| `/bpp:16` | 16位色深 | 高彩色显示，平衡画质与性能（32位太吃带宽） |
 | `/gdi:hw` | 硬件 GDI 加速 | 配合 KMS 驱动提升绘图效率 |
-| `/network:broadband` | 宽带模式 | **关键优化参数**，控制 Windows 11 发送的特效量，详见下方说明 |
 | `+auto-reconnect` | 自动重连 | 连接断开后自动重新连接 |
 | `/auto-reconnect-max-retries:20` | 重连次数 | 最多尝试重连 20 次 |
-| `-menu-anims` | 禁用菜单动画 | 关闭菜单动画效果，提升性能 |
+| `-menu-anims` | 禁用菜单动画 | 关闭菜单动画效果，减少数据传输 |
+| `-wallpaper` | 禁用壁纸 | 禁用桌面壁纸，改用纯色背景 |
+| `-themes` | 禁用主题 | 禁用 Windows 主题特效 |
+| `-aero` | 禁用 Aero 特效 | 禁用窗口透明和毛玻璃效果 |
+| `-window-drag` | 禁用窗口拖拽内容 | 拖动窗口时只显示边框，不显示内容 |
 | `+fonts` | 字体平滑 | 启用字体平滑渲染 |
 | `+clipboard` | 剪贴板共享 | 支持本地与远程之间复制粘贴 |
 | `+glyph-cache` | 字形缓存 | 加速文字渲染 |
 | `+bitmap-cache` | 位图缓存 | 减少重复图像传输 |
+| `+offscreen-cache` | 离屏缓存 | 缓存不可见区域的图像数据 |
 | `+async-input` | 异步输入 | 启用异步输入处理 |
-| `/compression` | 启用压缩 | 减少网络带宽占用 |
-| `/sound:sys:alsa` | 音频传输 | **已注释**，如需音频传输请取消注释 |
-| `/smart-sizing` | 智能缩放 | 窗口大小改变时自动调整显示 |
-| `/gfx:AVC444` | 视频编解码 | 使用 H.264 硬件解码，流畅播放视频内容 |
+| `+async-update` | 异步更新 | 启用异步屏幕更新 |
 | `/multitransport` | 多路传输 | 允许同时使用 TCP 控制流和 UDP 数据流 |
-| `/sec:nla` | 网络级认证 | **已注释**，NLA 认证（UDP 传输前提） |
+| `/audio-mode:2` | 音频模式 | 音频播放模式（0=禁用，1=本地播放，2=不播放但允许录音） |
+| `/compression-level:2` | 压缩级别 | RDP 压缩级别（0=不压缩，1=低，2=高，最大值为2） |
 | `-- :0 vt7` | X Server 配置 | 在显示 :0 和虚拟终端 vt7 上运行 |
 
 ### 6.4 关键参数深度解析
@@ -293,16 +298,24 @@ chmod +x start_rdp.sh
 | `auto` | 自动检测 | 自动协商 | ❌ 不建议 (容易误判) |
 
 **Pi 3B 推荐配置**:
-- 局域网内：`/network:broadband`（默认配置，平衡性能与画质）
+- **当前配置**：`/network:wan`（针对高延迟环境优化，配合大量禁用特效参数）
+- 局域网内且追求画质：`/network:broadband`（平衡性能与画质）
 - 性能优先：`/network:broadband-low`（最流畅，牺牲部分视觉效果）
-- 不要用：`/network:lan`（特效太多，Pi 3B 会卡顿）
+- 不要用：`/network:lan`（特效太多，Pi 3B 扛不住）
 
-**性能注意事项**：
-- `/bpp:32` 提供最佳画质但占用更多带宽，如网络较差可改为 `/bpp:16`
-- `/gfx:AVC444` 需要 CPU 解码，Pi 3B 性能有限，如卡顿可注释此参数
-- `/sec:nla` 已被注释，如需启用 UDP 传输优化，需取消注释（但可能导致某些认证问题）
-- `/sound:sys:alsa` 已被注释，音频传输会增加 CPU 负载，按需启用
-- `+auto-reconnect` 提供自动重连功能，网络不稳定时非常有用
+**当前配置的性能优化说明**：
+- `/bpp:16`：使用16位色深，相比32位减少50%的图像数据传输量
+- `/network:wan`：针对高延迟环境优化，自动调整缓冲策略
+- `/compression-level:2`：中等压缩级别，平衡 CPU 负载与带宽占用
+- `/audio-mode:2`：禁用音频播放，节省带宽和 CPU 资源（仅保留录音功能）
+- `-wallpaper -themes -aero -window-drag`：禁用所有视觉特效，显著降低数据传输量
+- `+offscreen-cache`：缓存离屏内容，减少重复传输
+- `+async-update`：异步更新机制，提升响应速度
+
+**进一步优化建议**：
+- 如需音频：将 `/audio-mode:2` 改为 `/audio-mode:1`，但会增加约 10-20% CPU 负载
+- 如网络极佳：可尝试 `/bpp:32` 提升画质，但带宽占用翻倍
+- 如带宽不足：当前已使用最高压缩级别 `/compression-level:2`，无法进一步提升
 
 ---
 
@@ -422,9 +435,10 @@ chmod +x start_xterm.sh
 
 ### Q: 画面卡顿，拖动窗口残影?
 **A**: 
-- Pi 3B CPU 瓶颈
-- 改用 `/bpp:16`，启用 `/network:broadband`
-- 不要用 `/gfx:AVC444`（软解视频流太累）
+- Pi 3B CPU 瓶颈，当前已使用 `/bpp:16` 和 `/network:wan` 优化
+- 如仍卡顿，尝试 `/network:broadband-low`（更激进的性能模式）
+- 检查 `gpu_mem` 是否设置为 `128`（显存不足也会卡）
+- 当前已使用最高压缩级别 `/compression-level:2`，无法通过提高压缩优化
 
 ### Q: 直连也是 TCP?
 **A**: 
@@ -449,5 +463,5 @@ chmod +x start_xterm.sh
 
 ---
 
-**文档更新日期**: 2025-12-18
+**文档更新日期**: 2025-12-19
 **维护者**: 运维工程师
