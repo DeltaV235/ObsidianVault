@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian Tutorial",
+      "path": "Obsidian-Related/Obsidian Tutorial.md"
+    },
+    {
+      "basename": "Todo-List",
+      "path": "Todo-List.md"
+    },
+    {
+      "basename": "IP 分配",
+      "path": "Misc/IP 分配.md"
+    },
+    {
+      "basename": "yt-dlp 提取音频",
+      "path": "Misc/yt-dlp 提取音频.md"
+    },
+    {
       "basename": "LF will be replaced by CRLF the next time Git touches it",
       "path": "06-Git/LF will be replaced by CRLF the next time Git touches it.md"
     },
@@ -29,10 +45,6 @@
       "path": "Obsidian-Related/Template/Snippet.md"
     },
     {
-      "basename": "Obsidian Tutorial",
-      "path": "Obsidian-Related/Obsidian Tutorial.md"
-    },
-    {
       "basename": "Link-Demo2",
       "path": "Obsidian-Related/Link-Demo2.md"
     },
@@ -47,10 +59,6 @@
     {
       "basename": "OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP",
       "path": "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md"
-    },
-    {
-      "basename": "Todo-List",
-      "path": "Todo-List.md"
     },
     {
       "basename": "Asymmetric-Routing-Request.excalidraw",

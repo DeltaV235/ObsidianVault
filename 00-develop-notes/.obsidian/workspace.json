@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "5015a616c993d967",
+        "id": "de36bd5fa1b36d86",
         "type": "tabs",
         "children": [
           {
-            "id": "b0e8f5d6cad6c73d",
+            "id": "2b16201207b1d12e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-PVE/在 Alpine Linux 下配置 SSH Server.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "在 Alpine Linux 下配置 SSH Server"
-            }
-          },
-          {
-            "id": "24c9a549dcb3a777",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Misc/Raspberry Pi 3B Windows 11 Thin Client 部署指南.md",
+                "file": "Obsidian-Related/Obsidian Tutorial.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Raspberry Pi 3B Windows 11 Thin Client 部署指南"
-            }
-          },
-          {
-            "id": "d05e0e013727859b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Misc/Raspberry Pi 3B Windows 11 Thin Client 部署指南.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Raspberry Pi 3B Windows 11 Thin Client 部署指南"
-            }
-          },
-          {
-            "id": "035efe4ccafec8b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Misc/ML307C/ML307 模组有网卡但无串口（ttyUSB）的解决方案.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "ML307 模组有网卡但无串口（ttyUSB）的解决方案"
+              "title": "Obsidian Tutorial"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,6 +33,7 @@
       {
         "id": "a16167c42aaa0329",
         "type": "tabs",
+        "dimension": 76.80933852140079,
         "children": [
           {
             "id": "c24f7441eb01c8ff",
@@ -118,6 +76,23 @@
             }
           }
         ]
+      },
+      {
+        "id": "ff82136acf5e4165",
+        "type": "tabs",
+        "dimension": 23.19066147859922,
+        "children": [
+          {
+            "id": "6244a80412e61ab0",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -137,8 +112,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-PVE/在 Alpine Linux 下配置 SSH Server.md",
-                "collapseAll": false,
+                "file": "Obsidian-Related/Obsidian Tutorial.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -147,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 在 Alpine Linux 下配置 SSH Server"
+              "title": "Backlinks for Obsidian Tutorial"
             }
           },
           {
@@ -156,11 +131,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Obsidian-Related/Obsidian Tutorial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Obsidian Tutorial"
             }
           },
           {
@@ -179,22 +155,7 @@
             }
           },
           {
-            "id": "85f778fee8c37538",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Misc/ML307C/ML307 模组有网卡但无串口（ttyUSB）的解决方案.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of ML307 模组有网卡但无串口（ttyUSB）的解决方案"
-            }
-          },
-          {
-            "id": "b934e4000aec97b8",
+            "id": "de98c8bd126d51a9",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -205,6 +166,27 @@
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "64af0a9b8681648e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85f778fee8c37538",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Obsidian-Related/Obsidian Tutorial.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Obsidian Tutorial"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -223,26 +205,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "035efe4ccafec8b2",
+  "active": "2b16201207b1d12e",
   "lastOpenFiles": [
-    "Misc/ML307C/ML307 RNDIS 模式网卡 DHCP 配置笔记.md",
-    "Misc/ML307C/ML307 模组有网卡但无串口（ttyUSB）的解决方案.md",
-    "Misc/ML307C/ML307 系列模组关闭指示灯操作指南.md",
-    "Misc/ML307C",
+    "Obsidian-Related/assets/Obsidian Tutorial/file-20251220225645123.png",
+    "Obsidian-Related/assets/Obsidian Tutorial",
+    "Obsidian-Related/assets",
+    "Todo-List.md",
+    "Misc/IP 分配.md",
+    "Misc/yt-dlp 提取音频.md",
+    "11-Interview/2025-3-18-首聘-百度-一面.md",
+    "Untitled.base",
     "Misc/Raspberry Pi 3B Windows 11 Thin Client 部署指南.md",
-    "10-PVE/从错误的直通配置中恢复 PVE 至可用状态.md",
+    "Misc/ML307C/ML307 系列模组关闭指示灯操作指南.md",
+    "Misc/ML307C/ML307 模组有网卡但无串口（ttyUSB）的解决方案.md",
+    "Misc/ML307C/ML307 RNDIS 模式网卡 DHCP 配置笔记.md",
+    "Misc/ML307C",
     "Misc/Rime 自定义快捷键.md",
-    "conflict-files-obsidian-git.md",
     "Misc/跨平台 .local 域名解析差异与解决方案.md",
+    "Misc/Home Server IP Service Map.md",
+    "Misc/MacOS 制作 Win11 安装引导盘.md",
+    "Misc/Keyboard.md",
     "10-PVE/02-NAS/ZFS Dataset NFS 挂载问题.md",
-    "10-PVE/ZFS Dataset NFS 挂载问题.md",
-    "09-Linux/LVM.md",
-    "10-PVE/PVE 换源.md",
-    "10-PVE/修改 storage.cfg 使 NFS 的挂载不影响 PVE 的启动.md",
-    "10-PVE/通过 Live CD 恢复 PVE.md",
+    "Software-List/MacOS-15.md",
     "10-PVE/在 Alpine Linux 下配置 SSH Server.md",
     "10-PVE/PVE Console 无法输入输出的解决方案.md",
-    "Software-List/MacOS-15.md",
     "Software-List/OpenWrt-Software-List.md"
   ]
 }

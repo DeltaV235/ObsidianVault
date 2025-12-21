@@ -5,5 +5,7 @@
   "dataview",
   "obsidian-excalidraw-plugin",
   "obsidian-kanban",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-minimal-settings",
+  "obsidian-custom-attachment-location"
 ]

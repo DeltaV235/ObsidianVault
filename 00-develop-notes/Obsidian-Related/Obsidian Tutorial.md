@@ -87,3 +87,5 @@ Below is sample.
 ### Reference
 
 [Callouts Guide](https://help.obsidian.md/Editing+and+formatting/Callouts)
+
+![[file-20251220225645123.png]]
