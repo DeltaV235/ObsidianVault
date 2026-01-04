@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian-Related/Obsidian Tutorial.md",
-                "mode": "source",
+                "file": "10-PVE/05-VPN/Zerotier 搭建 VPN.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Obsidian Tutorial"
+              "title": "Zerotier 搭建 VPN"
             }
           }
         ]
@@ -177,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian-Related/Obsidian Tutorial.md",
+                "file": "10-PVE/05-VPN/Zerotier 搭建 VPN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Obsidian Tutorial"
+              "title": "Outline of Zerotier 搭建 VPN"
             }
           }
         ]
@@ -207,6 +207,8 @@
   },
   "active": "2b16201207b1d12e",
   "lastOpenFiles": [
+    "Misc/Raspberry Pi 3B Windows 11 Thin Client 部署指南.md",
+    "Obsidian-Related/Obsidian Tutorial.md",
     "Obsidian-Related/assets/Obsidian Tutorial/file-20251220225645123.png",
     "Obsidian-Related/assets/Obsidian Tutorial",
     "Obsidian-Related/assets",
@@ -215,7 +217,6 @@
     "Misc/yt-dlp 提取音频.md",
     "11-Interview/2025-3-18-首聘-百度-一面.md",
     "Untitled.base",
-    "Misc/Raspberry Pi 3B Windows 11 Thin Client 部署指南.md",
     "Misc/ML307C/ML307 系列模组关闭指示灯操作指南.md",
     "Misc/ML307C/ML307 模组有网卡但无串口（ttyUSB）的解决方案.md",
     "Misc/ML307C/ML307 RNDIS 模式网卡 DHCP 配置笔记.md",
