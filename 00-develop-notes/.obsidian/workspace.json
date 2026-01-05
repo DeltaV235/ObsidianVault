@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-PVE/05-VPN/Zerotier 搭建 VPN.md",
-                "mode": "preview",
+                "file": "Misc/更新 MacOS 下的 Rime 的 librime.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Zerotier 搭建 VPN"
+              "title": "更新 MacOS 下的 Rime 的 librime"
             }
           }
         ]
@@ -177,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10-PVE/05-VPN/Zerotier 搭建 VPN.md",
+                "file": "Misc/更新 MacOS 下的 Rime 的 librime.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Zerotier 搭建 VPN"
+              "title": "Outline of 更新 MacOS 下的 Rime 的 librime"
             }
           }
         ]
@@ -207,6 +207,8 @@
   },
   "active": "2b16201207b1d12e",
   "lastOpenFiles": [
+    "10-PVE/05-VPN/Zerotier 搭建 VPN.md",
+    "Misc/更新 MacOS 下的 Rime 的 librime.md",
     "Misc/Raspberry Pi 3B Windows 11 Thin Client 部署指南.md",
     "Obsidian-Related/Obsidian Tutorial.md",
     "Obsidian-Related/assets/Obsidian Tutorial/file-20251220225645123.png",
