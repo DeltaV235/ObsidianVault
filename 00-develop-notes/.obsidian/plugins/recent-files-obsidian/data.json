@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Rime 万象更新工具",
+      "path": "12-Rime/Rime 万象更新工具.md"
+    },
+    {
+      "basename": "Todo-List",
+      "path": "Todo-List.md"
+    },
+    {
       "basename": "更新 MacOS 下的 Rime 的 librime",
-      "path": "Misc/更新 MacOS 下的 Rime 的 librime.md"
+      "path": "12-Rime/更新 MacOS 下的 Rime 的 librime.md"
     },
     {
       "basename": "Rime 自定义快捷键",
-      "path": "Misc/Rime 自定义快捷键.md"
+      "path": "12-Rime/Rime 自定义快捷键.md"
     },
     {
       "basename": "ZFS Dataset NFS 挂载问题",
@@ -121,10 +129,6 @@
       "path": "Obsidian-Related/Obsidian Tutorial.md"
     },
     {
-      "basename": "Todo-List",
-      "path": "Todo-List.md"
-    },
-    {
       "basename": "LF will be replaced by CRLF the next time Git touches it",
       "path": "06-Git/LF will be replaced by CRLF the next time Git touches it.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20240616235513",
       "path": "attachments/Pasted image 20240616235513.png"
-    },
-    {
-      "basename": "Pasted image 20230304204203",
-      "path": "attachments/Pasted image 20230304204203.png"
     }
   ],
   "omittedPaths": [],

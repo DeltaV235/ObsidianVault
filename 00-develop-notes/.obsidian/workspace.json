@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/更新 MacOS 下的 Rime 的 librime.md",
+                "file": "12-Rime/Rime 万象更新工具.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "更新 MacOS 下的 Rime 的 librime"
+              "title": "Rime 万象更新工具"
             }
           }
         ]
@@ -177,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misc/更新 MacOS 下的 Rime 的 librime.md",
+                "file": "12-Rime/Rime 万象更新工具.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 更新 MacOS 下的 Rime 的 librime"
+              "title": "Outline of Rime 万象更新工具"
             }
           }
         ]
@@ -207,8 +207,11 @@
   },
   "active": "2b16201207b1d12e",
   "lastOpenFiles": [
-    "Misc/Rime 自定义快捷键.md",
-    "Misc/更新 MacOS 下的 Rime 的 librime.md",
+    "Todo-List.md",
+    "12-Rime/Rime 万象更新工具.md",
+    "12-Rime/更新 MacOS 下的 Rime 的 librime.md",
+    "12-Rime",
+    "12-Rime/Rime 自定义快捷键.md",
     "10-PVE/02-NAS/ZFS Dataset NFS 挂载问题.md",
     "10-PVE/02-NAS/SATA 控制器直通.md",
     "10-PVE/04-LXC/Docker 安装.md",
@@ -231,8 +234,6 @@
     "Misc/yt-dlp 提取音频.md",
     "Misc/MacOS 制作 Win11 安装引导盘.md",
     "Misc/Keyboard.md",
-    "Misc/IP 分配.md",
-    "Misc/HC550.md",
     "Obsidian-Related/assets/Obsidian Tutorial/file-20251220225645123.png",
     "Obsidian-Related/assets/Obsidian Tutorial",
     "Obsidian-Related/assets",
