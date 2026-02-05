@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "IP 分配",
+      "path": "Misc/IP 分配.md"
+    },
+    {
+      "basename": "MacOS 制作 Win11 安装引导盘",
+      "path": "Misc/MacOS 制作 Win11 安装引导盘.md"
+    },
+    {
+      "basename": "Keyboard",
+      "path": "Misc/Keyboard.md"
+    },
+    {
+      "basename": "2025-4-10-睿服科技-浦发银行信用卡",
+      "path": "11-Interview/2025-4-10-睿服科技-浦发银行信用卡.md"
+    },
+    {
+      "basename": "2025-3-14-帆立科技-上海农商银行-二面",
+      "path": "11-Interview/2025-3-14-帆立科技-上海农商银行-二面.md"
+    },
+    {
+      "basename": "2025-3-11-赢时胜-国泰君安",
+      "path": "11-Interview/2025-3-11-赢时胜-国泰君安.md"
+    },
+    {
+      "basename": "2025-3-12-东软-中汇",
+      "path": "11-Interview/2025-3-12-东软-中汇.md"
+    },
+    {
+      "basename": "2025-3-13-帆立科技-上海农商银行-一面",
+      "path": "11-Interview/2025-3-13-帆立科技-上海农商银行-一面.md"
+    },
+    {
+      "basename": "2025-3-14-极兔速运",
+      "path": "11-Interview/2025-3-14-极兔速运.md"
+    },
+    {
+      "basename": "2025-3-17-TechMahindra",
+      "path": "11-Interview/2025-3-17-TechMahindra.md"
+    },
+    {
+      "basename": "2025-3-18-首聘-百度-一面",
+      "path": "11-Interview/2025-3-18-首聘-百度-一面.md"
+    },
+    {
+      "basename": "2025-3-20-首聘-百度-二面",
+      "path": "11-Interview/2025-3-20-首聘-百度-二面.md"
+    },
+    {
       "basename": "Rime 万象更新工具",
       "path": "12-Rime/Rime 万象更新工具.md"
     },
@@ -97,18 +145,6 @@
       "path": "Misc/yt-dlp 提取音频.md"
     },
     {
-      "basename": "MacOS 制作 Win11 安装引导盘",
-      "path": "Misc/MacOS 制作 Win11 安装引导盘.md"
-    },
-    {
-      "basename": "Keyboard",
-      "path": "Misc/Keyboard.md"
-    },
-    {
-      "basename": "IP 分配",
-      "path": "Misc/IP 分配.md"
-    },
-    {
       "basename": "HC550",
       "path": "Misc/HC550.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "Link-Demo1",
       "path": "Obsidian-Related/Link-Demo1.md"
-    },
-    {
-      "basename": "Stream API",
-      "path": "02-Java/Core/Stream API.md"
-    },
-    {
-      "basename": "OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP",
-      "path": "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md"
-    },
-    {
-      "basename": "Asymmetric-Routing-Request.excalidraw",
-      "path": "Excalidraw/Asymmetric-Routing-Request.excalidraw.md"
-    },
-    {
-      "basename": "网络拓扑",
-      "path": "Misc/All-In-One/网络拓扑.md"
-    },
-    {
-      "basename": "Asymmetric-Routing-Response.excalidraw",
-      "path": "Excalidraw/Asymmetric-Routing-Response.excalidraw.md"
-    },
-    {
-      "basename": "Bypass-Gateway-Mode-Topology.excalidraw",
-      "path": "Excalidraw/Bypass-Gateway-Mode-Topology.excalidraw.md"
-    },
-    {
-      "basename": "stream-flatMap-1.drawio",
-      "path": "attachments/stream-flatMap-1.drawio.svg"
-    },
-    {
-      "basename": "stream-map-1.drawio",
-      "path": "attachments/stream-map-1.drawio.svg"
-    },
-    {
-      "basename": "Pasted image 20240616235513",
-      "path": "attachments/Pasted image 20240616235513.png"
     }
   ],
   "omittedPaths": [],

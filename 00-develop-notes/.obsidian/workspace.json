@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12-Rime/Rime 万象更新工具.md",
+                "file": "Misc/MacOS 制作 Win11 安装引导盘.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Rime 万象更新工具"
+              "title": "MacOS 制作 Win11 安装引导盘"
+            }
+          },
+          {
+            "id": "ef4d527c230d6195",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,13 +190,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12-Rime/Rime 万象更新工具.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Rime 万象更新工具"
+              "title": "Outline"
             }
           }
         ]
@@ -205,10 +217,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b16201207b1d12e",
+  "active": "ef4d527c230d6195",
   "lastOpenFiles": [
-    "Todo-List.md",
+    "Misc/Keyboard.md",
+    "Misc/IP 分配.md",
+    "11-Interview/2025-4-10-睿服科技-浦发银行信用卡.md",
+    "11-Interview/2025-3-14-帆立科技-上海农商银行-二面.md",
+    "11-Interview/2025-3-11-赢时胜-国泰君安.md",
+    "11-Interview/2025-3-12-东软-中汇.md",
+    "11-Interview/2025-3-13-帆立科技-上海农商银行-一面.md",
+    "11-Interview/2025-3-14-极兔速运.md",
+    "11-Interview/2025-3-17-TechMahindra.md",
+    "11-Interview/2025-3-18-首聘-百度-一面.md",
+    "11-Interview/2025-3-20-首聘-百度-二面.md",
     "12-Rime/Rime 万象更新工具.md",
+    "Todo-List.md",
     "12-Rime/更新 MacOS 下的 Rime 的 librime.md",
     "12-Rime",
     "12-Rime/Rime 自定义快捷键.md",
@@ -223,17 +246,6 @@
     "10-PVE/PVE 换源.md",
     "10-PVE/从错误的直通配置中恢复 PVE 至可用状态.md",
     "10-PVE/修改 storage.cfg 使 NFS 的挂载不影响 PVE 的启动.md",
-    "10-PVE/在 Alpine Linux 下配置 SSH Server.md",
-    "10-PVE/更改 Default Domain Type 为 Passthrough.md",
-    "10-PVE/通过 Live CD 恢复 PVE.md",
-    "Misc/All-In-One/配置.md",
-    "Misc/ML307C/ML307 系列模组关闭指示灯操作指南.md",
-    "Misc/ML307C/ML307 模组有网卡但无串口（ttyUSB）的解决方案.md",
-    "Misc/ML307C/ML307 RNDIS 模式网卡 DHCP 配置笔记.md",
-    "Misc/跨平台 .local 域名解析差异与解决方案.md",
-    "Misc/yt-dlp 提取音频.md",
-    "Misc/MacOS 制作 Win11 安装引导盘.md",
-    "Misc/Keyboard.md",
     "Obsidian-Related/assets/Obsidian Tutorial/file-20251220225645123.png",
     "Obsidian-Related/assets/Obsidian Tutorial",
     "Obsidian-Related/assets",
