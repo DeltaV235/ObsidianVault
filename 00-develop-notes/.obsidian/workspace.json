@@ -27,16 +27,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/IP 分配.md",
+                "file": "10-PVE/在 Alpine Linux 下配置 SSH Server.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "IP 分配"
+              "title": "在 Alpine Linux 下配置 SSH Server"
+            }
+          },
+          {
+            "id": "3105f81c22d2a2fc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -192,13 +204,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misc/IP 分配.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of IP 分配"
+              "title": "Outline"
             }
           }
         ]
@@ -220,10 +231,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ef4d527c230d6195",
+  "active": "3105f81c22d2a2fc",
   "lastOpenFiles": [
-    "Misc/Keyboard.md",
     "Misc/IP 分配.md",
+    "Misc/Keyboard.md",
     "11-Interview/2025-4-10-睿服科技-浦发银行信用卡.md",
     "11-Interview/2025-3-14-帆立科技-上海农商银行-二面.md",
     "11-Interview/2025-3-11-赢时胜-国泰君安.md",
