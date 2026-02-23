@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "在 Alpine Linux 下配置 SSH Server",
-      "path": "10-PVE/在 Alpine Linux 下配置 SSH Server.md"
-    },
-    {
       "basename": "IP 分配",
       "path": "Misc/IP 分配.md"
+    },
+    {
+      "basename": "VLAN",
+      "path": "04-Network/VLAN.md"
+    },
+    {
+      "basename": "OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP",
+      "path": "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md"
+    },
+    {
+      "basename": "网络拓扑",
+      "path": "04-Network/网络拓扑.md"
+    },
+    {
+      "basename": "在 Alpine Linux 下配置 SSH Server",
+      "path": "10-PVE/在 Alpine Linux 下配置 SSH Server.md"
     },
     {
       "basename": "MacOS 制作 Win11 安装引导盘",
@@ -187,18 +199,6 @@
     {
       "basename": "Default",
       "path": "Obsidian-Related/Template/Default.md"
-    },
-    {
-      "basename": "Snippet",
-      "path": "Obsidian-Related/Template/Snippet.md"
-    },
-    {
-      "basename": "Link-Demo2",
-      "path": "Obsidian-Related/Link-Demo2.md"
-    },
-    {
-      "basename": "Link-Demo1",
-      "path": "Obsidian-Related/Link-Demo1.md"
     }
   ],
   "omittedPaths": [],

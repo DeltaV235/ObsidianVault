@@ -39,12 +39,14 @@
             "id": "3105f81c22d2a2fc",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "Misc/IP 分配.md",
+                "mode": "preview",
+                "source": true
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
+              "icon": "lucide-file",
+              "title": "IP 分配"
             }
           }
         ],
@@ -81,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vlan",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,12 +206,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Misc/IP 分配.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of IP 分配"
             }
           }
         ]
@@ -233,6 +236,9 @@
   },
   "active": "3105f81c22d2a2fc",
   "lastOpenFiles": [
+    "04-Network/VLAN.md",
+    "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md",
+    "04-Network/网络拓扑.md",
     "Misc/IP 分配.md",
     "Misc/Keyboard.md",
     "11-Interview/2025-4-10-睿服科技-浦发银行信用卡.md",
@@ -257,9 +263,6 @@
     "10-PVE/04-LXC/PVE NFS 挂载持久化.md",
     "10-PVE/Grafana + Prometheus 实现 PVE Host 和 Guest 的监控.md",
     "10-PVE/PVE Console 无法输入输出的解决方案.md",
-    "10-PVE/PVE 换源.md",
-    "10-PVE/从错误的直通配置中恢复 PVE 至可用状态.md",
-    "10-PVE/修改 storage.cfg 使 NFS 的挂载不影响 PVE 的启动.md",
     "Obsidian-Related/assets/Obsidian Tutorial/file-20251220225645123.png",
     "Obsidian-Related/assets/Obsidian Tutorial",
     "Obsidian-Related/assets",
