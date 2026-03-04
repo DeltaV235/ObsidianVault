@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "Keyboard",
+      "path": "Misc/Keyboard.md"
+    },
+    {
+      "basename": "Home Server IP Service Map",
+      "path": "Misc/Home Server IP Service Map.md"
+    },
+    {
+      "basename": "基于 Docker Compose 的 Prometheus 和 Grafana 的安装和配置",
+      "path": "03-Middleware/基于 Docker Compose 的 Prometheus 和 Grafana 的安装和配置.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "03-Middleware/Redis.md"
+    },
+    {
+      "basename": "K8S 集群搭建",
+      "path": "03-Middleware/Kubernetes/K8S 集群搭建.md"
+    },
+    {
+      "basename": "OpenWrt-Software-List",
+      "path": "Software-List/OpenWrt-Software-List.md"
+    },
+    {
+      "basename": "MacOS-15",
+      "path": "Software-List/MacOS-15.md"
+    },
+    {
+      "basename": "2025-3-13-帆立科技-上海农商银行-一面",
+      "path": "11-Interview/2025-3-13-帆立科技-上海农商银行-一面.md"
+    },
+    {
+      "basename": "2025-3-18-首聘-百度-一面",
+      "path": "11-Interview/2025-3-18-首聘-百度-一面.md"
+    },
+    {
+      "basename": "2025-3-20-首聘-百度-二面",
+      "path": "11-Interview/2025-3-20-首聘-百度-二面.md"
+    },
+    {
       "basename": "IP 分配",
       "path": "Misc/IP 分配.md"
     },
@@ -25,10 +65,6 @@
       "path": "Misc/MacOS 制作 Win11 安装引导盘.md"
     },
     {
-      "basename": "Keyboard",
-      "path": "Misc/Keyboard.md"
-    },
-    {
       "basename": "2025-4-10-睿服科技-浦发银行信用卡",
       "path": "11-Interview/2025-4-10-睿服科技-浦发银行信用卡.md"
     },
@@ -45,24 +81,12 @@
       "path": "11-Interview/2025-3-12-东软-中汇.md"
     },
     {
-      "basename": "2025-3-13-帆立科技-上海农商银行-一面",
-      "path": "11-Interview/2025-3-13-帆立科技-上海农商银行-一面.md"
-    },
-    {
       "basename": "2025-3-14-极兔速运",
       "path": "11-Interview/2025-3-14-极兔速运.md"
     },
     {
       "basename": "2025-3-17-TechMahindra",
       "path": "11-Interview/2025-3-17-TechMahindra.md"
-    },
-    {
-      "basename": "2025-3-18-首聘-百度-一面",
-      "path": "11-Interview/2025-3-18-首聘-百度-一面.md"
-    },
-    {
-      "basename": "2025-3-20-首聘-百度-二面",
-      "path": "11-Interview/2025-3-20-首聘-百度-二面.md"
     },
     {
       "basename": "Rime 万象更新工具",
@@ -161,10 +185,6 @@
       "path": "Misc/HC550.md"
     },
     {
-      "basename": "Home Server IP Service Map",
-      "path": "Misc/Home Server IP Service Map.md"
-    },
-    {
       "basename": "Raspberry Pi 3B Windows 11 Thin Client 部署指南",
       "path": "Misc/Raspberry Pi 3B Windows 11 Thin Client 部署指南.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "LF will be replaced by CRLF the next time Git touches it",
       "path": "06-Git/LF will be replaced by CRLF the next time Git touches it.md"
-    },
-    {
-      "basename": "闭包",
-      "path": "07-Frontend/闭包.md"
-    },
-    {
-      "basename": "Array",
-      "path": "07-Frontend/Array.md"
-    },
-    {
-      "basename": "ES 中的 this 变量",
-      "path": "07-Frontend/ES 中的 this 变量.md"
-    },
-    {
-      "basename": "MacOS-15",
-      "path": "Software-List/MacOS-15.md"
-    },
-    {
-      "basename": "Default",
-      "path": "Obsidian-Related/Template/Default.md"
     }
   ],
   "omittedPaths": [],
