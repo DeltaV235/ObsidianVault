@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "通过 Karabiner-Elements 在 MacOS 中实现外置键盘保留 Function Key 功能",
+      "path": "Misc/通过 Karabiner-Elements 在 MacOS 中实现外置键盘保留 Function Key 功能.md"
+    },
+    {
       "basename": "Keyboard",
       "path": "Misc/Keyboard.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Obsidian Tutorial",
       "path": "Obsidian-Related/Obsidian Tutorial.md"
-    },
-    {
-      "basename": "LF will be replaced by CRLF the next time Git touches it",
-      "path": "06-Git/LF will be replaced by CRLF the next time Git touches it.md"
     }
   ],
   "omittedPaths": [],

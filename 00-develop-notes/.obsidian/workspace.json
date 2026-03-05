@@ -41,28 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/Keyboard.md",
-                "mode": "preview",
+                "file": "Misc/通过 Karabiner-Elements 在 MacOS 中实现外置键盘保留 Function Key 功能.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Keyboard"
-            }
-          },
-          {
-            "id": "aba0b1e8ead1ea10",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.4"
+              "title": "通过 Karabiner-Elements 在 MacOS 中实现外置键盘保留 Function Key 功能"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -218,12 +206,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Misc/通过 Karabiner-Elements 在 MacOS 中实现外置键盘保留 Function Key 功能.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 通过 Karabiner-Elements 在 MacOS 中实现外置键盘保留 Function Key 功能"
             }
           }
         ]
@@ -245,8 +234,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aba0b1e8ead1ea10",
+  "active": "3105f81c22d2a2fc",
   "lastOpenFiles": [
+    "Misc/assets/通过 Karabiner-Elements 在 MacOS 中实现外置键盘保留 Function Key 功能/file-20260305004520880.png",
+    "Misc/assets/通过 Karabiner-Elements 在 MacOS 中实现外置键盘保留 Function Key 功能",
+    "Misc/assets",
+    "Misc/Keyboard.md",
+    "Misc/通过 Karabiner-Elements 在 MacOS 中实现外置键盘保留 Function Key 功能.md",
     "Misc/Home Server IP Service Map.md",
     "03-Middleware/基于 Docker Compose 的 Prometheus 和 Grafana 的安装和配置.md",
     "03-Middleware/Redis.md",
@@ -260,7 +254,6 @@
     "04-Network/VLAN.md",
     "04-Network/OpenWRT 通过配置 DHCP 服务为不同设备分配不同的 Gateway 和 DNS IP.md",
     "04-Network/网络拓扑.md",
-    "Misc/Keyboard.md",
     "11-Interview/2025-4-10-睿服科技-浦发银行信用卡.md",
     "11-Interview/2025-3-14-帆立科技-上海农商银行-二面.md",
     "11-Interview/2025-3-11-赢时胜-国泰君安.md",
@@ -272,8 +265,6 @@
     "12-Rime/更新 MacOS 下的 Rime 的 librime.md",
     "12-Rime",
     "12-Rime/Rime 自定义快捷键.md",
-    "10-PVE/02-NAS/ZFS Dataset NFS 挂载问题.md",
-    "10-PVE/02-NAS/SATA 控制器直通.md",
     "Obsidian-Related/assets/Obsidian Tutorial/file-20251220225645123.png",
     "Obsidian-Related/assets/Obsidian Tutorial",
     "Obsidian-Related/assets",
